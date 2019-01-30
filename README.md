@@ -4,6 +4,7 @@
   * [Technologies](#technologies)
   * [Current Events](#current-events)
   * [How the Web Works](#how-the-web-works)
+  * [Group Research Projects](#group-research-projects)
     * [Resources](#resources)
 * [General Resources](#general-resources)
 
@@ -17,11 +18,100 @@
 
 ### Technologies
 
-__What did we learn in school?__
+__What's important?__
+* Frontend
+  * HTML
+  * CSS
+    * Bulma
+    * Vuetify
+    * Bootstrap
+    * Sass
+    * BEM
+  * JavaScript
+    * ES6
+      * arrow functions
+      * destructuring
+      * async/await
+      * promises
+  * Ruby on Rails
+  * React
+    * Redux
+  * Vue
+    * Vuex
+  * Angular
+  * php (Wordpress)
+* Backend
+  * Node/Express
+  * Mongo
+  * SQL
+  * Postgres
+  * APIs (restful)
+    * Google maps
+    * Yelp
+    * Twitter
+  * Authentication
+    * Oauth
+    * cookies/tokens
+  * .NET
+* Cloud
+  * Azure
+  * AWS
+  * DigitalOcean
+  * Firebase
+  * Heroku
+* Other languages
+  * C++
+  * C#
+  * Java
+  * Assembly
+  * Python
+  * Matlab
+  * Lisp
+  * F#
+  * Ruby
+  * OCamel
+  * Haskell
+* Soft skills
+  * UI/UX
+    * Sketch
+    * InVision
+    * XD
+    * Photoshop
+    * Illustrator
+    * Gimp
+  * Whiteboarding, storyboards (user stories)
+  * Agile, SCRUM vs Waterfall
+  * Interviewing
+  * Testing, TDD
+    * Mocha
+    * Jest
+    * JUnit
+    * Selenium
+    * Integration tests
+    * Unit tests
+* Developer tools
+  * Notepad++
+  * Brackets
+  * Chrome dev tools
+  * VS Code
+  * Git
+    * GitKraken
+    * Github Desktop
+  * Sublime
+  * Gitlab
+  * CI/CD
+    * Jenkins
+    * Vagrant
+    * CircleCI
+    * Travis
+    * Virtual Box
+  * Linux
 
-__What do we need to learn to work on the web?__
+__Core__
 
-__What do we want to learn?__
+__Exposure__
+
+__Tangential__
 
 ### Current Events
 * [Google Wants to Kill the URL](https://www.wired.com/story/google-wants-to-kill-the-url/)
@@ -60,7 +150,16 @@ The web has a similar set of infastructure that make up the entire system:
 * __Clients__ are the ones who request assets. In our analogy this is your _home_, the end goal for all of our _goods_.
 * __TCP__, otherwise known as __Transmission Control Protocol__, defines how applications can create channels of communication across a network and manages how a message is assembled into smaller packets. This is similar to the way containers, roads, and trucks are all _standardized_ so that anyone coming onto the network for the first time can immediately interact with it.
 * __IP__, otherwise known as __Internet Protocol__, defines how to address and route each packet to make sure it reaches the right destination. This is like the _address_ of the buildings in our network. Every device on the network has a unique __IP address__.
-* __DNS__, otherwise known as __Domain Name System__
+* __DNS__, otherwise known as __Domain Name System__, is how devices translate human-readable _domain names_ to computer-readable IP addresses. DNS is akin to the yellow pages (or Google maps) where I can look up a building's address via the company name.
+* __HTTP__ is the application protocol that defines how devices speak to each other and send/request assets. Like TCP, this _standardizes_ a method of communication so any new device can immediately communicate with everyone on the network. In our analogy, __HTTP__ is like the English you would use to verbally order goods.
+
+### Group Research Projects
+
+Topics
+* Browser security, including
+* Web protocols, including
+* Web servers, including
+* Browser wars, including
 
 * DNS
   * associates names to corresponding address
