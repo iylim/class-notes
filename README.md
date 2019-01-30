@@ -59,9 +59,9 @@ The web has a similar set of infastructure that make up the entire system:
 * __Servers__ store the assets and serve them up to any who requests them. These are the _distribution centers_.
 * __Clients__ are the ones who request assets. In our analogy this is your _home_, the end goal for all of our _goods_.
 * __TCP__, otherwise known as __Transmission Control Protocol__, defines how applications can create channels of communication across a network and manages how a message is assembled into smaller packets. This is similar to the way containers, roads, and trucks are all _standardized_ so that anyone coming onto the network for the first time can immediately interact with it.
-* __IP__, otherwise known as __Internet Protocol__, defines how to address and route each packet to make sure it reaches the right destination. This is like the _address_ of the buildings in our network. Every device on the network has a unique _IP address_.
+* __IP__, otherwise known as __Internet Protocol__, defines how to address and route each packet to make sure it reaches the right destination. This is like the _address_ of the buildings in our network. Every device on the network has a unique __IP address__.
+* __DNS__, otherwise known as __Domain Name System__
 
-* IP address
 * DNS
   * associates names to corresponding address
   * TTL
