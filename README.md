@@ -4,6 +4,7 @@
   * [Technologies](#technologies)
   * [Current Events](#current-events)
   * [How the Web Works](#how-the-web-works)
+  * [Example: Serving a Static Site](#example-serving-a-static-site)
   * [Group Research Projects](#group-research-projects)
     * [Resources](#resources)
 * [General Resources](#general-resources)
@@ -117,7 +118,7 @@ __Tangential__
 * [Google Wants to Kill the URL](https://www.wired.com/story/google-wants-to-kill-the-url/)
 * [Google Takes its First Steps Towards Killing the URL](https://www.wired.com/story/google-chrome-kill-url-first-steps/)
 
-Discuss among yourselves. Some questions to consider:
+Pair up (but not with someone at your table!) & discuss. Some questions to consider:
 * What is the importance of URLs in our current version of the web?
 * Do you think they are flawed? How so? 
 * What are some of the pitfalls of using URLs? Benefits?
@@ -151,16 +152,51 @@ The web has a similar set of infastructure that make up the entire system:
 * __TCP__, otherwise known as __Transmission Control Protocol__, defines how applications can create channels of communication across a network and manages how a message is assembled into smaller packets. This is similar to the way containers, roads, and trucks are all _standardized_ so that anyone coming onto the network for the first time can immediately interact with it.
 * __IP__, otherwise known as __Internet Protocol__, defines how to address and route each packet to make sure it reaches the right destination. This is like the _address_ of the buildings in our network. Every device on the network has a unique __IP address__.
 * __DNS__, otherwise known as __Domain Name System__, is how devices translate human-readable _domain names_ to computer-readable IP addresses. DNS is akin to the yellow pages (or Google maps) where I can look up a building's address via the company name.
-* __HTTP__ is the application protocol that defines how devices speak to each other and send/request assets. Like TCP, this _standardizes_ a method of communication so any new device can immediately communicate with everyone on the network. In our analogy, __HTTP__ is like the English you would use to verbally order goods.
+* __HTTP__, or the HyperText Transfer Protocol, is the application protocol that defines how devices speak to each other and send/request assets. Like TCP, this _standardizes_ a method of communication so any new device can immediately communicate with everyone on the network. In our analogy, __HTTP__ is like the English you would use to verbally order goods.
+
+### Example: Serving a Static Site
+
+My stack:
+* Backend:
+  * ![DigitalOcean](https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/DigitalOcean_logo.svg/1200px-DigitalOcean_logo.svg.png)
+  *  ![Ubuntu](https://assets.ubuntu.com/v1/57a889f6-ubuntu-logo112.png)
+  *  ![nginx](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSS6CGS27CO2S8UfpBypRwcMXtHnUSxjOiF1Jr9z4jFkQgoUq4vSg) Nginx server
+* ![Google domains](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTE6jSwfiTWv_571tB8pDsfDzn3J9Vnrfkki7vExsC2JaifLYnHfw) registar and nameservers
+  * run `whois talentpathla.com` to see my info
+* ![Filezilla](https://upload.wikimedia.org/wikipedia/commons/0/01/FileZilla_logo.svg) Filezilla for File Transfer Protocol
+* ![HTML5](https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1200px-HTML5_logo_and_wordmark.svg.png) Frontend: HTML
+* ssh & nano for file manipulation
 
 ### Group Research Projects
 
 Topics
 * Browser security, including
+  * HTTPS
+  * SSL/TSL
+  * CORS
+  * XSS attacks
+  * DNS spoofing
 * Web protocols, including
+  * HTTP
+  * Websockets
+  * FTP
+  * IMAP/POP3/SMTP
+  * SSL
+  * SSH
+  * UDP
 * Web servers, including
+  * Apache
+  * Nginx
+  * Node
+  * pros/cons, usage
 * Browser wars, including
+  * Chromium
+  * IE is dead??
+  * Opera
+  * Firefox
+  * Brave
 
+---
 * DNS
   * associates names to corresponding address
   * TTL
