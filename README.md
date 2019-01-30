@@ -1,8 +1,8 @@
 # Talent Path Frontend Course 💻 📚 🎓
 
 * [Week 1](#week-1)
-  * [Current Events](#current-events)
   * [Technologies](#technologies)
+  * [Current Events](#current-events)
   * [How the Web Works](#how-the-web-works)
     * [Resources](#resources)
 * [General Resources](#general-resources)
@@ -15,6 +15,14 @@
 2. Create an account
 3. Post in #general your current favorite song
 
+### Technologies
+
+__What did we learn in school?__
+
+__What do we need to learn to work on the web?__
+
+__What do we want to learn?__
+
 ### Current Events
 * [Google Wants to Kill the URL](https://www.wired.com/story/google-wants-to-kill-the-url/)
 * [Google Takes its First Steps Towards Killing the URL](https://www.wired.com/story/google-chrome-kill-url-first-steps/)
@@ -26,14 +34,6 @@ Discuss among yourselves. Some questions to consider:
 * What could we use in place of URLs?
 * Consider Google's (and Chrome's) place as the _gatekeepers_ of the web. As the article mentions, they're able to propose radical new standards and then "throw Google's weight around to motivate everyone to adopt the practice." Do you think this is a positive use of their power, or could it lead to potential abuse?
 * Going off of the above question: what is the role of corporations on the web? What should their role be?
-
-### Technologies
-
-__What did we learn in school?__
-
-__What do we need to learn to work on the web?__
-
-__What do we want to learn?__
 
 ### How the Web Works
 Or: __How the Heck Do I Have Access to the Entirety of Human Knowledge at Near Instantaneous Speeds?__
