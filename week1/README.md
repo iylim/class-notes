@@ -208,10 +208,8 @@ The web has a similar set of infastructure that make up the entire system:
 
 What you need
 
-| Tech | What it is | What it does | Alternatives |
-| ---- | ---------- | ------------ | ------------ |
-
-<!-- | ---------------- | ----------------------- | ------------------------------------------------------------------------------------- | ------------------------- |
+| Tech             | What it is              | What it does                                                                          | Alternatives              |
+| ---------------- | ----------------------- | ------------------------------------------------------------------------------------- | ------------------------- |
 | [DigitalOcean]   | Cloud solutions         | Hosts my own virtual machine                                                          | [AWS], [Azure]            |
 | [Ubuntu]         | Linux distrubution      | Operating system for my VM                                                            | [Take your pick][distros] |
 | [Nginx]          | Web server software     | Manages all the web traffic on VM                                                     | [Apache]                  |
@@ -231,7 +229,7 @@ What you need
 [Namecheap]: https://www.namecheap.com/
 [Filezilla]: https://filezilla-project.org/
 [Cyberduck]: https://cyberduck.io/
-[HTML]: https://www.w3schools.com/html/default.asp -->
+[HTML]: https://www.w3schools.com/html/default.asp
 
 ## Group Research Projects
 
