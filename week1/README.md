@@ -207,6 +207,7 @@ The web has a similar set of infastructure that make up the entire system:
 ## Example: Serving a Static Site
 
 What you need
+
 | Tech | What it is | What it does | Alternatives |
 | ---- | ---------- | ------------ | ------------ |
 
