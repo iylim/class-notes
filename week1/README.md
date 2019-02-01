@@ -181,7 +181,7 @@ Or: __How the Heck Do I Have Access to the Entirety of Human Knowledge at Near I
 
 Computers connected to the web are either __clients__ or __servers__ (some are both).
 
-![client & server](week1/client-server.jpg)
+![client & server](client-server.jpg)
 
 Clients _request_ information; servers, well, _serve_ it up. 
 Servers are also connected directly to the internet, whereas clients are connected via an internet service provider (ISP). 
@@ -189,7 +189,7 @@ That's why you have to pay Time Warner or Verizon or whichever monopoly exists i
 
 __So how exactly does data flow through the internet?__
 
-![Trucking](https://vni.s3.amazonaws.com/171221104902022.png)
+![Trucking](https://www.nonforceddispatch.com/wp-content/uploads/2017/08/Trucking-with-guns-for-protection.jpg)
 
 Let's compare the internet to the shipping network used to transport physical goods all across the world.
 In our physical example, we have trucks used to carry the goods, distribution centers, destinations where we want the goods to go, and roads for the trucks to travel on.
