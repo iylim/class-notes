@@ -1,5 +1,6 @@
 # Week 2: HTML, CSS, & JavaScript 
 
+* [Disney Recap](#disney-recap)
 * [Current Events](#current-events)
 * [Tools Check](#tools-check)
 * [Git](#git)
@@ -15,6 +16,28 @@
 * [CSS](#css)
 * [Resources](#resources)
 * [Schedule](#schedule)
+
+## Disney Recap
+
+* streaming (direct to consumer). What kind of tech to be involved with streaming?
+  * SPA
+  * [HLS](https://www.wikiwand.com/en/HTTP_Live_Streaming)
+* UI/UX
+  * really high demand
+  * people aren't learning design
+* React
+* MEAN/MERN
+* DATA 📈
+  * data-driven decision-making
+  * ML
+  * capture as much data as you can
+  * in-house anaylizing and collection
+  * modelling
+  * cross-referencing data
+* how to secure funding/gain support
+  * understanding the bigger picture of the company
+* WALL-E
+* Agile
 
 ## Current Events
 
@@ -157,6 +180,13 @@ From today's article:
 For now, use just HTML. Focus on semantics and structure.
 
 ### Some things you should have on your site
+* projects
+* overview/about
+* contact
+* resume
+* blog
+* picture of yourself
+* links to social media
 
 ### Examples
 * [Wes Bos](https://wesbos.com/)
@@ -197,22 +227,43 @@ Push all of your code to this repo and it will automatically be hosted at _usern
     * first-letter, first-line
     * before, after
     * selection
+* box model: margin/padding
+  ![box model diagram](boxmodel.png) 
+* borders and border-radius
 * [Colors](https://www.w3schools.com/css/css_colors.asp)
   * names
   * rgb/rgba
   * hex
   * hsl/hsla
+    ![HSL cone](https://upload.wikimedia.org/wikipedia/commons/2/2d/HSL_color_solid_dblcone.png)
 * [Background](https://www.w3schools.com/css/css_background.asp)
+  * color
+  * image
+  * repeat
+  * position
+  * [gradient](https://www.w3schools.com/css/css3_gradients.asp)
+* fonts
+  * [Google fonts](https://fonts.google.com/)
+* [units](https://www.w3schools.com/css/css_units.asp)
+  * vw/vh
+  * px
+  * em/rem
+  * %
+* box-shadow, text-shadow
+* lists (making a nav)
+* position
 
 ## Resources
 
 * Git
   * [Merging vs. Rebasing](https://www.atlassian.com/git/tutorials/merging-vs-rebasing)
-* HTML
-  * [Semantic HTML For Meaningful Webpages](http://seekbrevity.com/semantic-markup-important-web-design/)
-* Git
   * [Git handbook](https://guides.github.com/introduction/git-handbook/)
   * [Git cheatsheets](https://services.github.com/on-demand/resources/cheatsheets/)
+* HTML
+  * [Style Guide](https://www.w3schools.com/html/html5_syntax.asp)
+  * [Semantic HTML For Meaningful Webpages](http://seekbrevity.com/semantic-markup-important-web-design/)
+* CSS
+  * [Gradient tool](https://cssgradient.io/)
 
 ## Schedule
 1. recap Disney trip, write down some thoughts: 8:45 - 9
