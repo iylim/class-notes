@@ -16,6 +16,11 @@ If you have any suggestions, please feel free to make a pull request or file an 
   * [Example: Serving a Static Site](#example-serving-a-static-site)
   * [Group Research Projects](#group-research-projects)
   * [Resources](#resources)
+* [Week 2](#week-2)
+  * [Current Events](#current-events-1)
+  * [Git](#git)
+  * [HTML](#html)
+  * [CSS](#css)
 * [General Resources](#general-resources)
 
 ## Week 1
@@ -67,6 +72,18 @@ ones we will be __exposed__ to, and technologies that are __tangential__ to what
   * [HTTP — an Application-Level Protocol](https://dev.opera.com/articles/http-basic-introduction/)
   * [HTTP: Let’s GET It On!](https://dev.opera.com/articles/http-lets-get-it-on/)
   * [HTTP: Response Codes](https://dev.opera.com/articles/http-response-codes/)
+
+## Week 2
+
+### Current Events
+
+* [The Great Divide](https://css-tricks.com/the-great-divide/)
+
+### Git
+
+### HTML
+
+### CSS
 
 ## General Resources
 * [Developer Roadmap](https://github.com/kamranahmedse/developer-roadmap)

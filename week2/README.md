@@ -6,18 +6,36 @@
   * [Code-along](#code-along)
   * [Skills Check Exercise](#skills-check-exercise)
 * [HTML](#html)
-  * [Why Semantics Matter](#why-semantics-matter)
   * [Key 🔑 Elements](#key--elements)
+  * [Why Semantics Matter](#why-semantics-matter)
 * [Project: Portfolio Site](#project-portfolio-site)
   * [Some things you should have on your site](#some-things-you-should-have-on-your-site)
   * [Examples](#examples)
   * [Github Pages](#github-pages)
+* [CSS](#css)
 * [Resources](#resources)
 * [Schedule](#schedule)
 
 ## Current Events
 
 [The Great Divide](https://css-tricks.com/the-great-divide/)
+
+> "We're seeing coding schools absolutely explode and produce fairly talented developers in less than a year. These code school graduates are filling labor gaps, but more importantly starting to lead industry discussions rather than be passive followers of them."
+
+Discuss among yourselves. Some questions to consider:
+* Why do you think this "Great Divide" arose?
+* How should we be distinguishing all of these different sides of web development? 
+* How can employers specify this in there job postings? Also, what should you be looking for in job postings in order to know what kind of role you're applying to?
+* Coyier warns that it's possible for JavaScript developers to "become  so framework-driven going down this path that your wider problem-solving skills suffer." How do you think we can avoid stagnating into merely "framework implementers"?
+
+Some questions from Coyier:
+* Is there any solution to these problems of suffering craftsmanship and skill devaluation? 
+* Are the problems systemic and deeply rooted, or are they surface level and without severe consequence? 
+* Is the divide real, or a temporary rift? 
+* Is the friction settling down or heating up? 
+* Will the front-end developer skill set widen or narrow as the years pass?
+
+> "The only constant is change."
 
 ## Tools Check
 
@@ -61,15 +79,13 @@ __Now let's do it with GitKraken__
 __Now everyone do it with [student-directory]()__
 * clone repo
 * make your own branch
-* Add your own contact info, using Markdown
+* Add your own contact info, using [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 * commit, push, PR, merge
 
 ## HTML
 
-### Why Semantics Matter
-* SEO
-* Accessibility
-* Maintainability
+From today's article:
+> "One of the most glaring issues with making Full Stack Developers the gatekeepers of all-things-code is the pitiful quality of the HTML output. Most come from a computer science background, and document structure is simply not taught alongside control structure."
 
 ### Key 🔑 Elements
 * `<!DOCTYPE html>`
@@ -78,7 +94,7 @@ __Now everyone do it with [student-directory]()__
   * `title`
   * `meta` tags
     * viewport: `<meta name="viewport" content="width=device-width, initial-scale=1.0">`
-    * favicon
+    * favicon: `<link rel="shortcut icon" type="image/png" href="/favicon.png"/>`
 * headings: `h1` through `h6`
   > "Search engines use the headings to index the structure and content of your web pages. Users skim your pages by its headings. It is important to use headings to show the document structure"
 * `p`
@@ -102,7 +118,24 @@ __Now everyone do it with [student-directory]()__
   * src
   * alt
   * [`<picture>`](https://www.w3schools.com/tags/tag_picture.asp)
+    ```html
+    <picture>
+      <source media="(min-width: 650px)" srcset="img_pink_flowers.jpg">
+      <source media="(min-width: 465px)" srcset="img_white_flower.jpg">
+      <img src="img_orange_flowers.jpg" alt="Flowers" style="width:auto;">
+    </picture>
+    ```
+* [video](https://www.w3schools.com/tags/tag_video.asp)
+  ```html
+  <video width="320" height="240" controls>
+    <source src="movie.mp4" type="video/mp4">
+    <source src="movie.ogg" type="video/ogg">
+    Your browser does not support the video tag.
+  </video>
+  ```
 * tables
+  * `tr`, `th`, `td`
+* iframe
 * semantic elements
   * `<header>`- Defines a header for a document or a section
   * `<nav>` - Defines a container for navigation links
@@ -113,6 +146,12 @@ __Now everyone do it with [student-directory]()__
   * `<details>` - Defines additional details
   * `<summary>` - Defines a heading for the `<details>` element
 
+### Why Semantics Matter
+* SEO
+* Accessibility
+* Maintainability
+![divs vs good markups](http://v1c2v4d1fl-flywheel.netdna-ssl.com/wp-content/uploads/2017/08/semantic.jpg)
+
 ## Project: Portfolio Site
 
 For now, use just HTML. Focus on semantics and structure.
@@ -120,6 +159,10 @@ For now, use just HTML. Focus on semantics and structure.
 ### Some things you should have on your site
 
 ### Examples
+* [Wes Bos](https://wesbos.com/)
+* [Steve Schoger](http://www.steveschoger.com/)
+* [Jonluca De Caro](https://jonlu.ca/#)
+* [Matt Farley](http://mattfarley.ca/)
 
 ### Github Pages
 
@@ -128,21 +171,59 @@ Push all of your code to this repo and it will automatically be hosted at _usern
 
 [Documentation](https://pages.github.com/)
 
+## CSS
+
+* 3 ways to add:
+  * Inline - by using the style attribute in HTML elements
+  * Internal - by using a `<style>` element in the `<head>` section
+  * External - by using an external CSS file
+    * `<link rel="stylesheet" href="styles.css">`
+* [Selectors](https://www.w3schools.com/cssref/css_selectors.asp)
+  * element
+  * class
+  * id
+  * [combinators](https://www.w3schools.com/css/css_combinators.asp): 
+    * descendant selector (`space`)
+    * child selector (`>`)
+    * adjacent sibling selector (`+`)
+    * general sibling selector (`~`)
+  * [psuedo-class](https://www.w3schools.com/css/css_pseudo_classes.asp)
+    * hover
+    * link: visited, active
+    * first-child, nth-child(an + b)
+    * first-of-type
+    * not
+  * [psuedo-elements](https://www.w3schools.com/css/css_pseudo_elements.asp)
+    * first-letter, first-line
+    * before, after
+    * selection
+* [Colors](https://www.w3schools.com/css/css_colors.asp)
+  * names
+  * rgb/rgba
+  * hex
+  * hsl/hsla
+* [Background](https://www.w3schools.com/css/css_background.asp)
+
 ## Resources
 
-* [Semantic HTML For Meaningful Webpages](http://seekbrevity.com/semantic-markup-important-web-design/)
+* Git
+  * [Merging vs. Rebasing](https://www.atlassian.com/git/tutorials/merging-vs-rebasing)
+* HTML
+  * [Semantic HTML For Meaningful Webpages](http://seekbrevity.com/semantic-markup-important-web-design/)
+* Git
+  * [Git handbook](https://guides.github.com/introduction/git-handbook/)
+  * [Git cheatsheets](https://services.github.com/on-demand/resources/cheatsheets/)
 
 ## Schedule
-1. recap Disney trip, write down some thoughts: 8 - 8:15
-2. current events: 8:15 - 8:45
-3. Git lesson: 8:45 - 9:15
+1. recap Disney trip, write down some thoughts: 8:45 - 9
+2. current events: 9:15 - 9:45
+3. Git lesson: 9:45 - 10:15
 4. BREAK: 9:15 - 9:30
 5. HTML code-along: 9:30 - 10:00
-6. HTML group article exercise: 10:00 - Noon
+6. HTML portfolio exercise: 10:00 - Noon
 7. LUNCH: noon - 1:00
-8. Deploying site: 1:00 - 1:15
-9. CSS: 1:15 - 1:45
-10. CSS in portfolio
-11. Extra time:
+8. CSS: 1:00 - 1:30
+9.  CSS in portfolio
+10. Extra time:
     1.  Bootstrap
     2.  Introduce group projects, put in groups, begin to brainstorm
