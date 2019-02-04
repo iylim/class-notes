@@ -1,4 +1,4 @@
-# Week 1
+# Week 1: Web Basics
 
 * [Join Our Discord Server!](#join-our-discord-server)
 * [Technologies](#technologies)

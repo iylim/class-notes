@@ -1,5 +1,14 @@
 # Talent Path Fullstack Course 💻 📚 🎓
 
+__How to use these notes:__ 
+this repository will contain all of the notes for our class.
+This README will give a general overview of the entire class, week by week.
+You can scan this for a quick reminder of what we did each week.
+For more detailed notes, look in the corresponding folder for each week.
+
+These notes will be updated daily (sometimes multiple times a day). 
+If you have any suggestions, please feel free to make a pull request or file an issue.
+
 * [Week 1](#week-1)
   * [Technologies](#technologies)
   * [Current Events](#current-events)
