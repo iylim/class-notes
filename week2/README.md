@@ -1,23 +1,35 @@
 # Week 2: HTML, CSS, & JavaScript 
 
-* [Disney Recap](#disney-recap)
-* [Current Events](#current-events)
-* [Tools Check](#tools-check)
-* [Git](#git)
-  * [Code-along](#code-along)
-  * [Skills Check Exercise](#skills-check-exercise)
-* [HTML](#html)
-  * [Key 🔑 Elements](#key--elements)
-  * [Why Semantics Matter](#why-semantics-matter)
-* [Project: Portfolio Site](#project-portfolio-site)
-  * [Some things you should have on your site](#some-things-you-should-have-on-your-site)
-  * [Examples](#examples)
-  * [Github Pages](#github-pages)
-* [CSS](#css)
+* [Monday](#monday)
+  * [Disney Recap](#disney-recap)
+  * [Current Events](#current-events)
+  * [Tools Check](#tools-check)
+  * [Git](#git)
+    * [Code-along](#code-along)
+    * [Skills Check Exercise](#skills-check-exercise)
+  * [HTML](#html)
+    * [Key 🔑 Elements](#key--elements)
+    * [Why Semantics Matter](#why-semantics-matter)
+  * [Project: Portfolio Site](#project-portfolio-site)
+    * [Some things you should have on your site](#some-things-you-should-have-on-your-site)
+    * [Examples](#examples)
+    * [Github Pages](#github-pages)
+* [Tuesday](#tuesday)
+  * [Current Events](#current-events-1)
+  * [CSS](#css)
+  * [Advanced CSS](#advanced-css)
+    * [Responsive](#responsive)
+    * [Flexbox](#flexbox)
+    * [Grid](#grid)
+    * [Animations](#animations)
 * [Resources](#resources)
 * [Schedule](#schedule)
+  * [Monday](#monday-1)
+  * [Tuesday](#tuesday-1)
 
-## Disney Recap
+## Monday
+
+### Disney Recap
 
 * streaming (direct to consumer). What kind of tech to be involved with streaming?
   * SPA
@@ -39,7 +51,7 @@
 * WALL-E
 * Agile
 
-## Current Events
+### Current Events
 
 [The Great Divide](https://css-tricks.com/the-great-divide/)
 
@@ -60,7 +72,7 @@ Some questions from Coyier:
 
 > "The only constant is change."
 
-## Tools Check
+### Tools Check
 
 Does everyone have?
 - [ ] Code editor
@@ -68,11 +80,11 @@ Does everyone have?
 - [ ] Some way to access command prompt
 - [ ] GitKraken or other desktop git client (if you'd like)
 
-## Git
+### Git
 
 ![Git workflow](https://appendtonew.wpengine.com/wp-content/uploads/2015/06/Screen-Shot-2015-06-24-at-8.37.13-PM-1024x663.png)
 
-### Code-along
+#### Code-along
 
 __First, try this on the command line:__
 1. create directory locally
@@ -97,7 +109,7 @@ __Now let's do it with GitKraken__
 7. Create pull request
 8. Merge and close
 
-### Skills Check Exercise
+#### Skills Check Exercise
 
 __Now everyone do it with [student-directory]()__
 * clone repo
@@ -105,12 +117,12 @@ __Now everyone do it with [student-directory]()__
 * Add your own contact info, using [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 * commit, push, PR, merge
 
-## HTML
+### HTML
 
 From today's article:
 > "One of the most glaring issues with making Full Stack Developers the gatekeepers of all-things-code is the pitiful quality of the HTML output. Most come from a computer science background, and document structure is simply not taught alongside control structure."
 
-### Key 🔑 Elements
+#### Key 🔑 Elements
 * `<!DOCTYPE html>`
 * `<html>` root element
 * `head`
@@ -169,17 +181,17 @@ From today's article:
   * `<details>` - Defines additional details
   * `<summary>` - Defines a heading for the `<details>` element
 
-### Why Semantics Matter
+#### Why Semantics Matter
 * SEO
 * Accessibility
 * Maintainability
 ![divs vs good markups](http://v1c2v4d1fl-flywheel.netdna-ssl.com/wp-content/uploads/2017/08/semantic.jpg)
 
-## Project: Portfolio Site
+### Project: Portfolio Site
 
 For now, use just HTML. Focus on semantics and structure.
 
-### Some things you should have on your site
+#### Some things you should have on your site
 * projects
 * overview/about
 * contact
@@ -188,20 +200,31 @@ For now, use just HTML. Focus on semantics and structure.
 * picture of yourself
 * links to social media
 
-### Examples
+#### Examples
 * [Wes Bos](https://wesbos.com/)
 * [Steve Schoger](http://www.steveschoger.com/)
 * [Jonluca De Caro](https://jonlu.ca/#)
 * [Matt Farley](http://mattfarley.ca/)
 
-### Github Pages
+#### Github Pages
 
 Create a repository called ___username_.github.io__.
 Push all of your code to this repo and it will automatically be hosted at _username_.github.io
 
 [Documentation](https://pages.github.com/)
 
-## CSS
+## Tuesday
+
+### Current Events
+
+[Codepen.io](https://codepen.io/): "social development environment for front-end designers and developers" AKA a place to share dope HTML/CSS/JS projects.
+
+Find a cool pen and show a neighbor.
+Tell them what you like about it, why you think it's interesting.
+
+### CSS
+
+[Starter files for code-along exercise](https://github.com/talent-path-la/portfolio)
 
 * 3 ways to add:
   * Inline - by using the style attribute in HTML elements
@@ -252,6 +275,17 @@ Push all of your code to this repo and it will automatically be hosted at _usern
 * box-shadow, text-shadow
 * lists (making a nav)
 * position
+* varibles
+
+### Advanced CSS
+
+#### Responsive
+
+#### Flexbox
+
+#### Grid
+
+#### Animations
 
 ## Resources
 
@@ -264,17 +298,19 @@ Push all of your code to this repo and it will automatically be hosted at _usern
   * [Semantic HTML For Meaningful Webpages](http://seekbrevity.com/semantic-markup-important-web-design/)
 * CSS
   * [Gradient tool](https://cssgradient.io/)
+  * [A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 
 ## Schedule
+
+### Monday
 1. recap Disney trip, write down some thoughts: 8:45 - 9
-2. current events: 9:15 - 9:45
-3. Git lesson: 9:45 - 10:15
-4. BREAK: 9:15 - 9:30
-5. HTML code-along: 9:30 - 10:00
-6. HTML portfolio exercise: 10:00 - Noon
-7. LUNCH: noon - 1:00
-8. CSS: 1:00 - 1:30
-9.  CSS in portfolio
-10. Extra time:
-    1.  Bootstrap
-    2.  Introduce group projects, put in groups, begin to brainstorm
+2. current events: 9:15 - 10:00
+3. Git lesson: 10:00 - 11:00
+5. Git exercise: 11:30 - 12:30
+6. LUNCH: 12:30 - 1:30
+7. HTML code-along: 1:30 - 3:00
+8. HTML portfolio exercise: 3:00 - 5:00
+
+### Tuesday
+
+1. Current events: 8:30 - 8:45
