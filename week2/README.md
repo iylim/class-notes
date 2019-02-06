@@ -284,6 +284,9 @@ Tell them what you like about it, why you think it's interesting.
 * varibles
 
 ## Wednesday: Advanced Design
+
+Today's gonna be great!
+
 ### Current Events
 
 * [Motherfucking Website](http://motherfuckingwebsite.com/)
