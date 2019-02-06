@@ -113,3 +113,6 @@ ones we will be __exposed__ to, and technologies that are __tangential__ to what
 * Fun & Inspirational
   * [Codepen](https://codepen.io/)
   * [Dribble](https://dribbble.com/)
+* Coding practice
+  * [Frontloops](https://frontloops.io/): HTML/CSS challenges sent via email
+  * [](http://dailycssimages.com/)

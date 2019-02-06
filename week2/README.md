@@ -17,11 +17,17 @@
 * [Tuesday](#tuesday)
   * [Current Events](#current-events-1)
   * [CSS](#css)
-  * [Advanced CSS](#advanced-css)
-    * [Responsive](#responsive)
-    * [Flexbox](#flexbox)
-    * [Grid](#grid)
-    * [Animations](#animations)
+* [Wednesday: Advanced Design](#wednesday-advanced-design)
+  * [Current Events](#current-events-2)
+  * [Some Design Guidelines](#some-design-guidelines)
+    * [Visual Hierarchy](#visual-hierarchy)
+    * [Typography](#typography)
+    * [Design Critique](#design-critique)
+  * [Responsive](#responsive)
+  * [Flexbox](#flexbox)
+  * [Grid](#grid)
+  * [Animations](#animations)
+  * [Modal w/ CSS](#modal-w-css)
 * [Resources](#resources)
 * [Schedule](#schedule)
   * [Monday](#monday-1)
@@ -230,7 +236,7 @@ Tell them what you like about it, why you think it's interesting.
   * Inline - by using the style attribute in HTML elements
   * Internal - by using a `<style>` element in the `<head>` section
   * External - by using an external CSS file
-    * `<link rel="stylesheet" href="styles.css">`
+    * `<link rel="stylesheet" href="styles.css" type="text/css">`
 * [Selectors](https://www.w3schools.com/cssref/css_selectors.asp)
   * element
   * class
@@ -277,15 +283,109 @@ Tell them what you like about it, why you think it's interesting.
 * position
 * varibles
 
-### Advanced CSS
+## Wednesday: Advanced Design
+### Current Events
 
-#### Responsive
+* [Motherfucking Website](http://motherfuckingwebsite.com/)
+* [Better Motherfucking Website](http://bettermotherfuckingwebsite.com/)
+* [Best Motherfucking Website](https://thebestmotherfucking.website/)
 
-#### Flexbox
+Discuss with your peers:
+* What is the message behind each website? What ideals are each website championing or improving upon from the last?
+* Which one do you like the most? Why?
+* To what extent is it true that "Good design is as little design as possible"?
 
-#### Grid
+### Some Design Guidelines
 
-#### Animations
+#### Visual Hierarchy
+> Visual hierarchy is the order in which a user processes information on a page; its function in user interface (UI) design is to allow users to understand information easily.
+> 
+> &mdash; Interaction Design Foundation's [Visual Hierchay](https://www.interaction-design.org/literature/topics/visual-hierarchy)
+
+Hierarchy can be communicated through:
+* __Size:__ the larger the element, the more attention it will attract
+* __Color:__ bright colors are more likely to draw attention over muted ones
+* __Contrast:__ dramatically contrasted colors will catch the eye easily
+* __Alignment:__ an element that breaks away from the alignment of others will attract more attention
+* __Repetition:__ repeating styles can give the impression that content is related
+* __Proximity:__ closely placed elements will also appear related
+* __Whitespace:__ more space around elements will attract the eye toward them
+* __Texture and style:__ richer textures will attract more attention than flat ones
+
+Hierarchy is used to direct a reader's eye in order to craft a specific user experience.
+_We as designers_ are responsible for (subtly) telling the user what to do.
+
+#### Typography
+> 95% of the information on the web is written language. It is only logical to say that a web designer should get good training in the main discipline of shaping written information, in other words: Typography.
+> 
+> &mdash; [The Web Is All About Typography. Period.](https://ia.net/topics/the-web-is-all-about-typography-period) by Oliver Reichenstein (2006)
+
+Here are a few guidelines for improving your typography (taken from Steve Schroger's [6 Tips that Will Improve Your UI Typography](http://www.steveschoger.com/2017/07/19/6-tips-that-will-improve-your-ui-typography/)):
+
+__Use liberal spacing__
+![font-size: 16px; line-height: 1.5em](http://www.steveschoger.com/img/170719-improving-typography/01-spacing.png)
+
+Line height should be somewhere between 1.4 and 1.6, depending on the font. 
+> The main goal is to make it so you can comfortably jump from one line to the next without getting disoriented.
+
+__Establish a visual rhythm__
+
+When defining margins and padding, use multiples of a relative unit (like `rem`) to maintain consistency.
+
+![In the image, I've used multiples of 6 to define both the line height and the margins.](http://www.steveschoger.com/img/170719-improving-typography/02-baseline-example.png)
+
+__Use color and contrast__
+
+> Sometimes, in order to make something stand out, you need to make other elements of the design stand back.
+
+![contrast of the paragraph text by 20 - 30%](http://www.steveschoger.com/img/170719-improving-typography/03-contrast.png)
+
+You can use 3 shade variations for text to create hierachy and relieve monotony.
+
+![3 shade variations: #222, #6e6e6e, #4a4a4a](http://www.steveschoger.com/img/170719-improving-typography/04-shade-varients.png)
+
+Make sure the contrast meets [accessibility standards](https://webaim.org/resources/contrastchecker/)!
+
+__Never go full black__
+
+Its easier to read dark grey text than black text when on a white background.
+
+![#4a4a4a on white bg](http://www.steveschoger.com/img/170719-improving-typography/05-black-text.png)
+
+Instead of a dark grey text, you can also use grey saturated a bit with the brand color. 
+This will really tie the design together. 
+Checkout Facebook:
+
+![Facebook saturates all of their greys with blue](http://www.steveschoger.com/img/170719-improving-typography/06-facebook-hue.png)
+
+__Don't use grey text on a colored background__
+
+You can also use this saturation technique when working with colored backgrounds.
+Instead of using grey, saturate the text with a bit of the background color.
+
+![Include a bit of the bg color](http://www.steveschoger.com/img/170719-improving-typography/07-pure-grey-on-color.png)
+
+__Use a comfortable line length__
+
+Text should never fill the entire screen. Whitespace is ok. Aim for a line length of around 80 characters.
+
+![Line length 70-80 characters is ideal](http://www.steveschoger.com/img/170719-improving-typography/08-line-length.png)
+
+__Left align large blocks of text__
+
+![Left aligned text](http://www.steveschoger.com/img/170719-improving-typography/09-alignment.png)
+
+#### Design Critique
+
+### Responsive
+
+### Flexbox
+
+### Grid
+
+### Animations
+
+### Modal w/ CSS
 
 ## Resources
 
@@ -306,10 +406,10 @@ Tell them what you like about it, why you think it's interesting.
 1. recap Disney trip, write down some thoughts: 8:45 - 9
 2. current events: 9:15 - 10:00
 3. Git lesson: 10:00 - 11:00
-5. Git exercise: 11:30 - 12:30
-6. LUNCH: 12:30 - 1:30
-7. HTML code-along: 1:30 - 3:00
-8. HTML portfolio exercise: 3:00 - 5:00
+4. Git exercise: 11:30 - 12:30
+5. LUNCH: 12:30 - 1:30
+6. HTML code-along: 1:30 - 3:00
+7. HTML portfolio exercise: 3:00 - 5:00
 
 ### Tuesday
 
