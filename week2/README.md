@@ -22,16 +22,18 @@
   * [Some Design Guidelines](#some-design-guidelines)
     * [Visual Hierarchy](#visual-hierarchy)
     * [Typography](#typography)
-    * [Design Critique](#design-critique)
   * [Responsive](#responsive)
   * [Flexbox](#flexbox)
   * [Grid](#grid)
   * [Animations](#animations)
-  * [Modal w/ CSS](#modal-w-css)
+* [Thursday: JavaScript](#thursday-javascript)
+  * [Current Events](#current-events-3)
+  * [Javascript Basics](#javascript-basics)
 * [Resources](#resources)
 * [Schedule](#schedule)
   * [Monday](#monday-1)
   * [Tuesday](#tuesday-1)
+  * [Wednesday](#wednesday)
 
 ## Monday
 
@@ -314,6 +316,7 @@ Hierarchy can be communicated through:
 * __Proximity:__ closely placed elements will also appear related
 * __Whitespace:__ more space around elements will attract the eye toward them
 * __Texture and style:__ richer textures will attract more attention than flat ones
+* __Movement:__ animated elements will catch the user's eye
 
 Hierarchy is used to direct a reader's eye in order to craft a specific user experience.
 _We as designers_ are responsible for (subtly) telling the user what to do.
@@ -330,6 +333,8 @@ __Use liberal spacing__
 
 Line height should be somewhere between 1.4 and 1.6, depending on the font. 
 > The main goal is to make it so you can comfortably jump from one line to the next without getting disoriented.
+
+Combined with text width, a comfortable line-height can make content less intimidating and more inviting.
 
 __Establish a visual rhythm__
 
@@ -378,8 +383,6 @@ __Left align large blocks of text__
 
 ![Left aligned text](http://www.steveschoger.com/img/170719-improving-typography/09-alignment.png)
 
-#### Design Critique
-
 ### Responsive
 
 ### Flexbox
@@ -388,7 +391,34 @@ __Left align large blocks of text__
 
 ### Animations
 
-### Modal w/ CSS
+## Thursday: JavaScript
+
+### Current Events
+
+[Links that don’t go anywhere should be buttons](https://christianheilmann.com/2019/02/05/links-that-dont-go-anywhere-should-be-buttons/)
+
+Be careful with your JavaScript! 
+You can do anything you want... doesn't mean you should.
+Markup still matters.
+
+### Javascript Basics
+1. install [node](https://nodejs.org/en/)
+     * Optional: use a package manager
+       * [Chocolatey](https://chocolatey.org/)  (Windows)
+       * [Homebrew](https://brew.sh/) (Mac)
+2. Go over important basics
+   1. [string methods](https://www.w3schools.com/js/js_string_methods.asp)
+   2. [number methods](https://www.w3schools.com/js/js_number_methods.asp)
+   3. [array methods](https://www.w3schools.com/js/js_array_methods.asp)
+   4. [DOM manipulation]()
+3. array cardio
+   1. Teams:
+      1. Scott & Brock
+      2. Emily & Ivy
+      3. Hans & Sam
+      4. Jon & Ervin
+      5. Kevin B & Glen
+      6. Devon & Will & Kevin A
 
 ## Resources
 
@@ -402,6 +432,8 @@ __Left align large blocks of text__
 * CSS
   * [Gradient tool](https://cssgradient.io/)
   * [A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+* JS
+  * [Style Guide](https://www.w3schools.com/js/js_conventions.asp)
 
 ## Schedule
 
@@ -415,5 +447,15 @@ __Left align large blocks of text__
 7. HTML portfolio exercise: 3:00 - 5:00
 
 ### Tuesday
-
 1. Current events: 8:30 - 8:45
+2. CSS codealong: 9:00 - 10:30
+3. Portfolio projects (adding styles): rest of day
+
+### Wednesday
+1. Current events: 8:30 - 8:45
+2. Design discussion on hiearchy: 8:45 - 9:15
+3. Design discussion on typography: 9:30 - 10:00
+4. Portfolio work: 10:00 - lunch
+5. LUNCH: noon - 1:00
+6. CSS grid: 1:00 - 2:00
+7. Portfolio work: rest of day
