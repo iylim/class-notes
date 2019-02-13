@@ -22,18 +22,26 @@
   * [Some Design Guidelines](#some-design-guidelines)
     * [Visual Hierarchy](#visual-hierarchy)
     * [Typography](#typography)
-  * [Responsive](#responsive)
-  * [Flexbox](#flexbox)
-  * [Grid](#grid)
-  * [Animations](#animations)
+  * [Advanced CSS](#advanced-css)
 * [Thursday: JavaScript](#thursday-javascript)
   * [Current Events](#current-events-3)
-  * [Javascript Basics](#javascript-basics)
+  * [Tooling Setup](#tooling-setup)
+  * [General Language Things](#general-language-things)
+  * [Numbers](#numbers)
+  * [Strings](#strings)
+  * [Arrays](#arrays)
+  * [Objects](#objects)
+  * [JS Cardio 🏃🏼](#js-cardio-)
+* [Friday](#friday)
+  * [Instructor Feedback](#instructor-feedback)
+  * [Connect Four Project](#connect-four-project)
 * [Resources](#resources)
 * [Schedule](#schedule)
   * [Monday](#monday-1)
   * [Tuesday](#tuesday-1)
   * [Wednesday](#wednesday)
+  * [Thursday](#thursday)
+  * [Friday](#friday-1)
 
 ## Monday
 
@@ -119,7 +127,7 @@ __Now let's do it with GitKraken__
 
 #### Skills Check Exercise
 
-__Now everyone do it with [student-directory]()__
+__Now everyone do it with [student-directory](https://github.com/talent-path-la/student-directory)__
 * clone repo
 * make your own branch
 * Add your own contact info, using [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
@@ -383,13 +391,11 @@ __Left align large blocks of text__
 
 ![Left aligned text](http://www.steveschoger.com/img/170719-improving-typography/09-alignment.png)
 
-### Responsive
-
-### Flexbox
-
-### Grid
-
-### Animations
+### Advanced CSS
+* Responsive design
+* Flexbox
+* Grid
+* Animations
 
 ## Thursday: JavaScript
 
@@ -401,24 +407,82 @@ Be careful with your JavaScript!
 You can do anything you want... doesn't mean you should.
 Markup still matters.
 
-### Javascript Basics
-1. install [node](https://nodejs.org/en/)
-     * Optional: use a package manager
-       * [Chocolatey](https://chocolatey.org/)  (Windows)
-       * [Homebrew](https://brew.sh/) (Mac)
-2. Go over important basics
-   1. [string methods](https://www.w3schools.com/js/js_string_methods.asp)
-   2. [number methods](https://www.w3schools.com/js/js_number_methods.asp)
-   3. [array methods](https://www.w3schools.com/js/js_array_methods.asp)
-   4. [DOM manipulation]()
-3. array cardio
-   1. Teams:
-      1. Scott & Brock
-      2. Emily & Ivy
-      3. Hans & Sam
-      4. Jon & Ervin
-      5. Kevin B & Glen
-      6. Devon & Will & Kevin A
+### Tooling Setup
+
+* [Node.js](https://nodejs.org/en/)
+  * Optional: use a package manager
+    * [Chocolatey](https://chocolatey.org/)  (Windows)
+    * [Homebrew](https://brew.sh/) (Mac)
+* [ESLint](https://eslint.org/)
+* [JavaScript (ES6) code snippets](https://marketplace.visualstudio.com/items?itemName=xabikos.JavaScriptSnippets)
+
+### General Language Things
+
+* adding JS to a webpage vs running from Node
+* `const` vs `let` vs `var`
+* arrow functions
+* debugging: `console.log` & `console.error`
+* callbacks
+
+### Numbers
+
+* `toString`
+* `parseInt`
+* `parseFloat`
+
+### Strings
+* `indexOf`
+* `slice(start, end)`: extracts a part of a string and returns the extracted part in a new string
+* `substring(start, end)`: similar to slice
+* `substr(start, length)`: similat but uses length
+* `replace`
+* template literals
+
+### Arrays
+* `push`, `pop`, `shift`, `unshift`
+* `join`
+* `splice`
+* `sort`
+* `forEach`
+* `map`
+* `filter`
+* `reduce`
+* `every`
+* `some`
+* `find`
+
+### Objects
+
+* property assignment/access: `objectName.propertyName` vs `objectName["propertyName"]`
+* `this` keyword
+  > It has different values depending on where it is used:
+  > In a method, this refers to the owner object.
+  > Alone, this refers to the global object.
+  > In a function, this refers to the global object.
+  > In a function, in strict mode, this is undefined.
+  > In an event, this refers to the element that received the event.
+  > Methods like call(), and apply() can refer this to any object.
+* for/in loop
+
+### [JS Cardio 🏃🏼](https://github.com/talent-path-la/js-cardio)
+
+__Teams:__
+1. Scott & Brock
+2. Emily & Will
+3. Hans & Sam
+4. Jon & Ervin
+5. Kevin B & Glen
+6. Devon & Ivy & Kevin A
+
+## Friday
+
+### Instructor Feedback
+
+[Andrew's personal survey](https://docs.google.com/forms/d/e/1FAIpQLSeiNHvaFfodOCfRDY5DrrxgjlAhHxYEuUZBNCGZGFQ3iBAkNQ/viewform?usp=sf_link)
+
+### Connect Four Project
+
+[Link to finished code](https://github.com/talent-path-la/connect-four)
 
 ## Resources
 
@@ -432,6 +496,8 @@ Markup still matters.
 * CSS
   * [Gradient tool](https://cssgradient.io/)
   * [A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+  * [Grid](https://css-tricks.com/snippets/css/complete-guide-grid/)
+  * [6 Tips that Will Improve Your UI Typography](http://www.steveschoger.com/2017/07/19/6-tips-that-will-improve-your-ui-typography/)
 * JS
   * [Style Guide](https://www.w3schools.com/js/js_conventions.asp)
 
@@ -459,3 +525,15 @@ Markup still matters.
 5. LUNCH: noon - 1:00
 6. CSS grid: 1:00 - 2:00
 7. Portfolio work: rest of day
+
+### Thursday
+1. Current events: 8:30 - 8:45
+2. JS review (overview, async, string, numbers, array): 9:00 - 12:00
+3. Lunch: 12:00 - 1:30
+4. JS review (objects): 1:30 - 2:30
+5. JS cardio (group work): 2:30 - 4:30
+6. Code review: 4:30 - 5
+
+### Friday
+1. Instructor feedback: 8:00 - 8:30
+2. Connect Four code-along: rest of day
