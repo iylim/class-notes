@@ -56,7 +56,7 @@ Agile software development, on the other hand, is focused on __continuous delive
 ![Agile software development](agile-software-dev.png)
 
 1. The product owner, along with other __stakeholders__, takes the feedback from the customers and compiles a __backlog__ of features. 
-2. Features are built individually and shipped to the customer as soon as they are ready. This is the __development cycle__ 
+2. Features are built incrementally and shipped to the customer as soon as they are ready. This is the __development cycle__ 
 3. Customer interacts with the new version of the software and provides feedback. The feedback can be requesting __new features__ or reporting __bugs__ on older features. 
 4. Feedback enters the backlog, and the cycle repeats.
 
@@ -82,5 +82,19 @@ In order to maintain consistency and agility, most teams use a specific syntax f
 
 ## Scrum in Github
 
+1. Make project board
+   1. columns: Sprint backlog, In Progress, Done
+   2. Done column automation
+2. Create an issue
+3. Assign it to current sprint
+4. Move it to In Progress column and assign it to me
+5. Checkout to branch locally and make change
+6. Commit with "fixes #issue-num"
+7. Merge PR
+8. Show that the ticket is in Done column
+
 ## Resources
 * [Manifesto for Agile Software Development](https://agilemanifesto.org/)
+* [What is Agile](https://www.youtube.com/watch?v=Z9QbYZh1YXY) (video)
+* [Kanban vs Scrum boards: 11 major differences](https://realtimeboard.com/blog/scrum-kanban-boards-differences/)
+* [How to choose between Agile and Lean, Scrum and Kanban — which methodology is the best?](https://realtimeboard.com/blog/choose-between-agile-lean-scrum-kanban/)
