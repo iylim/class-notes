@@ -54,4 +54,56 @@
 
 [Palette](https://palettte.app/): Build, analyze and edit smooth color palettes
 
+### Code Along: WYSIWYG Editor
+
+[Starter code](https://github.com/talent-path-la/wysiwyg/tree/master)
+
+## Wednesday
+
+Screencast mode!
+
+### Project Pitches!
+
+- related to the entertainment industry
+- reasonable scope for a team of 4-5 over a 2 month period (not too big, not too small)
+- should be able to implement some sort of third party APIs
+- multiple types of users
+- DATA
+
+#### Pitch requirements
+
+- "log line"/"elevator pitch"/mission statement
+- how it relates to entertainment industry
+- who are your users
+- competitors
+- possible roadblocks
+- why you are the right person to be PO
+
+### Web Components (continued)
+
+#### Attributes on Custom Elements
+
+#### Editable Heading
+
+#### Pair Coding Exercise
+
+Add an additional component onto this app.
+
+**Some ideas:**
+
+- add other elements
+- sidebar for quick controls
+- table of contents
+
+**Groups:**
+
+- Scott & Kevin A
+- Brock & Sam
+- Devon & Glen
+- Will & Ivy
+- Emily & Ervin
+- Hans & Kevin B & Jon
+
+### Advanced Web Components
+
 ### Resources
