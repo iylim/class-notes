@@ -1,5 +1,29 @@
 # Week 4: Advanced JavaScript
 
+* [Topics for the Upcoming Weeks](#topics-for-the-upcoming-weeks)
+* [Monday: Connect Four](#monday-connect-four)
+  * [Modularity](#modularity)
+    * [Where do I put my `script` tag?](#where-do-i-put-my-script-tag)
+  * [LocalStorage](#localstorage)
+* [Tuesday: Web Components (with 🍨 JS)](#tuesday-web-components-with--js)
+  * [Organization/Resources for the Modern Developer](#organizationresources-for-the-modern-developer)
+  * [Current Events](#current-events)
+  * [Code Along: WYSIWYG Editor](#code-along-wysiwyg-editor)
+* [Wednesday](#wednesday)
+  * [Project Pitches!](#project-pitches)
+    * [Pitch requirements](#pitch-requirements)
+  * [Web Components (continued)](#web-components-continued)
+    * [Attributes on Custom Elements](#attributes-on-custom-elements)
+    * [Editable Heading](#editable-heading)
+    * [Pair Coding Exercise](#pair-coding-exercise)
+  * [Advanced Web Components](#advanced-web-components)
+* [Thursday](#thursday)
+  * [Group Project Teams](#group-project-teams)
+    * [Movie Matchmaker](#movie-matchmaker)
+    * [Ambiance](#ambiance)
+* [Friday](#friday)
+  * [Resources](#resources)
+
 ## Topics for the Upcoming Weeks
 
 - Connect Four work
@@ -33,7 +57,7 @@
 >
 > &mdash; [Vanilla JavaScript Components](https://medium.com/bunnyllc/vanilla-js-components-8d20c58b69f4)
 
-### Help Me With Job
+### Organization/Resources for the Modern Developer
 
 - networking is "free"
   - hackathons
@@ -105,5 +129,35 @@ Add an additional component onto this app.
 - Hans & Kevin B & Jon
 
 ### Advanced Web Components
+
+## Thursday
+
+### Group Project Teams
+
+#### Movie Matchmaker
+
+- **Ivy**
+- Kevin B
+- Glen
+- Will
+- Sam
+- Hans
+
+#### Ambiance
+
+- **Devon**
+- Scott
+- Kevin A
+- Jon
+- Brock
+- Ervin
+- Emily
+
+## Friday
+
+1. Github organization
+2. Describe your users
+3. Epics & Issues (features)
+4.
 
 ### Resources
