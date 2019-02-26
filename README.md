@@ -194,6 +194,7 @@ We learned how to build a splash and a nav (with dropdown).
 - [w3schools](https://www.w3schools.com/)
 - [MDN web docs](https://developer.mozilla.org/en-US/)
 - [Odin Project](https://www.theodinproject.com/)
+- [JavaScript.info](https://javascript.info/): The Modern Javascript Tutorial
 - [hackr.io](https://hackr.io/)
 - [State of JavaScript](https://stateofjs.com/)
 - Wes Bos
@@ -204,7 +205,7 @@ We learned how to build a splash and a nav (with dropdown).
 - Podcasts
   - [Syntax](https://syntax.fm/)
   - [ShopTalk](https://shoptalkshow.com/)
-  - 99 Percent Invisible
+  - [99 Percent Invisible](https://99percentinvisible.org/)
 - YouTube
   - [Level Up Tuts](https://www.youtube.com/channel/UCyU5wkjgQYGRB0hIHMwm2Sg)
 - Blogs
@@ -219,4 +220,4 @@ We learned how to build a splash and a nav (with dropdown).
   - [Dribble](https://dribbble.com/)
 - Coding practice
   - [Frontloops](https://frontloops.io/): HTML/CSS challenges sent via email
-  - [](http://dailycssimages.com/)
+  - [Daily CSS Images](http://dailycssimages.com/)
