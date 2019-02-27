@@ -9,6 +9,11 @@
 * [Resources](#resources-1)
 * [Tuesday](#tuesday)
   * [Node](#node-1)
+* [Wednesday: Express API](#wednesday-express-api)
+  * [What is Express?](#what-is-express)
+  * [What is a RESTful API?](#what-is-a-restful-api)
+  * [HTTP Verbs and CRUD 💩](#http-verbs-and-crud-)
+  * [HTTP Status Codes](#http-status-codes)
 * [Resources](#resources-2)
 
 ## Monday
@@ -75,4 +80,63 @@ What can you build with Node?
 
 - [Chip8](https://github.com/taniarascia/chip8): emulator for computer from the 70's
 
+## Wednesday: Express API
+
+### What is [Express](https://expressjs.com/)?
+
+Fast, unopinionated, minimalist web framework for Node.js. It is a **backend** framework. It is by far the most popular Node framework.
+
+- Makes building apps with Node _much_ easier
+- Can be used for both server-rendered apps & APIs/microservices
+- Light, fast, free
+
+### What is a RESTful API?
+
+REST: **Re**presentational **S**tate **T**ransfer
+
+> Architectural style for providing standards between computer systems on the web, making it easier for systems to communicate with each other.
+
+Consists of
+
+- Resources (comments)
+- Representations (JSON)
+- Actions (HTTP verbs)
+
+API: **A**pplication **P**rogramming **I**nterface
+
+> Allows applications to talk to eachother and share data
+
+### HTTP Verbs and CRUD 💩
+
+| HTTP verb | CRUD   |
+| --------- | ------ |
+| POST      | Create |
+| GET       | Read   |
+| PUT       | Update |
+| DELETE    | Delete |
+
+### HTTP Status Codes
+
+| Code                       | Meaning                                                                                            |
+| -------------------------- | -------------------------------------------------------------------------------------------------- |
+| **Successful responses**   |                                                                                                    |
+| 200 Ok                     | The request has succeeded                                                                          |
+| 201 Created                | The request has succeeded and a new resource has been created. Sent after a succesful POST request |
+| **Client error responses** |                                                                                                    |
+| 400 Bad Request            | Server could not understand the request due to invalid syntax                                      |
+| 403 Forbidden              | Client does not have permission to access the resource                                             |
+| 404 Not found              | The resource cannot be found                                                                       |
+| **Server error responses** |                                                                                                    |
+| 500 Internal Server Error  | Something went wrong on the server                                                                 |
+
+
 ## Resources
+
+* API
+  * [API design is UI design — a way to collaborative handoff](https://uxdesign.cc/api-design-is-ui-design-a-way-to-collaborative-handoff-3d31ff57bb1)
+  * [How to design a RESTful API architecture from a human-language spec](https://www.oreilly.com/learning/how-to-design-a-restful-api-architecture-from-a-human-language-spec)
+  * [API Design](https://docs.microsoft.com/en-us/azure/architecture/best-practices/api-design)
+  * [MDN Docs: HTTP response status codes](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status)
+  * [REST API Tutorial](https://www.restapitutorial.com/)
+    * [Using HTTP Methods for RESTful Services](https://www.restapitutorial.com/lessons/httpmethods.html)
+  * [What is REST?](https://www.codecademy.com/articles/what-is-rest)
