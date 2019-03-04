@@ -14,6 +14,10 @@
   * [What is a RESTful API?](#what-is-a-restful-api)
   * [HTTP Verbs and CRUD 💩](#http-verbs-and-crud-)
   * [HTTP Status Codes](#http-status-codes)
+* [Friday](#friday)
+  * [Project Presentations](#project-presentations)
+    * [Aura](#aura)
+    * [YaMovie](#yamovie)
 * [Resources](#resources-2)
 
 ## Monday
@@ -128,6 +132,35 @@ API: **A**pplication **P**rogramming **I**nterface
 | 404 Not found              | The resource cannot be found                                                                       |
 | **Server error responses** |                                                                                                    |
 | 500 Internal Server Error  | Something went wrong on the server                                                                 |
+
+## Friday
+
+### Project Presentations
+
+#### Aura
+
+- tone/formality
+- CTA on hero
+- repetitive layout on homepage
+- functionality?
+- why is demo not integrated on site?
+- reponsiveness
+- what is your data?
+- demo should at least have dummy data
+- get interior shots (Google API)
+- catch people's curiosity
+- highlight your community
+- tech demo a little TOO granular
+
+#### YaMovie
+
+- landing page seems very incomplete
+- interesting hero
+- highlight community
+- notifications on what is going to be happening
+- user flow logged in vs not
+- what is "yamovie"?
+- core use case?
 
 
 ## Resources
