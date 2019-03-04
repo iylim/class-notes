@@ -8,6 +8,8 @@
 
 In order to make requests to our server we will also need to enable [CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS). We can use the [`cors` npm package](https://www.npmjs.com/package/cors).
 
+[Code-along finished code](https://github.com/talent-path-la/message-board/tree/fetch)
+
 ### React!
 
 ![React logo](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2000px-React-icon.svg.png)
