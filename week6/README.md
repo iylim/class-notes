@@ -10,6 +10,8 @@ In order to make requests to our server we will also need to enable [CORS](https
 
 [Code-along finished code](https://github.com/talent-path-la/message-board/tree/fetch)
 
+## Tuesday
+
 ### React!
 
 ![React logo](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2000px-React-icon.svg.png)
@@ -34,7 +36,20 @@ Sites built with React
 
 ### Building our first app
 
-- `npx create-react-app my-app`
+1. `npx create-react-app my-app`
+2. `npm start`
+
+That's it!
+
+So what is happening under the hood?
+
+**[Webpack](https://webpack.js.org/):** module bundler
+
+- Compiles all of our JS into a single file
+- Allows us to use cutting-edge JS while still be compatible with (most) browsers
+
+### Important Terms
+
 - state
 - props
 - data down (lifting state up)
