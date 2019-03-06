@@ -80,11 +80,21 @@ So what is happening under the hood?
 16. Now pass each comment as props and lets render it
 17. pass down `handleDelete` function
 18. CommentItem is getting messy! destructure props
-19. Lets bring in our API
+19. Lets bring in our API 1.
+
     1. [concurrently](https://www.npmjs.com/package/concurrently) run sever and client
-    2. proxy server address
-    3. [axios](https://www.npmjs.com/package/axios)
-    4. We will need to call data in [lifecyle hooks](https://reactjs.org/docs/react-component.html#the-component-lifecycle)
+       add to your package.json
+
+       ```
+       "dev": "concurrently \"npm run server\" \"npm run client\" --names \"server,client\" ",
+       "server": "nodemon index.js",
+       "client": "cd client && npm start",
+       ```
+
+    1. proxy server address
+    1. [axios](https://www.npmjs.com/package/axios)
+    1. We will need to call data in [lifecyle hooks](https://reactjs.org/docs/react-component.html#the-component-lifecycle)
+
 20. Let's do the add new comment form now
     1. We need to create a new controlled component
        > the React component that renders a form also controls what happens in that form on subsequent user input. An input form element whose value is controlled by React in this way is called a “controlled component”.
@@ -92,3 +102,60 @@ So what is happening under the hood?
     3. create change handler
     4. pass down add comment from app
     5. add submit handler
+
+## Wednesday
+
+### Project
+
+Make an app using the [Pokeapi](https://pokeapi.co/)
+
+#### Teams
+
+1. Will & Brock
+2. Emily & Kevin B
+3. Scott & Jon
+4. Hans & Kevin A
+5. Ivy & Devon
+6. Glen & Sam & Ervin
+
+#### User Stories
+
+- As a trainer I want to search by Pokémon name so that I can find my favorite ones
+- As a trainer I want to view details on a specific Pokémon so that I can know if they're right for my team
+  - type(s)
+  - sprite
+  - stats
+  - moves
+- As a trainer I want to view details on a specific move so that I can assemble the perfect move list
+  - Some things you could include (don't need all):
+    - PP
+    - power
+    - accuracy
+    - type
+    - effect
+    - type effectiveness
+    - damage class
+- As a trainer I want to add a Pokémon to my team so that I can be the very best like no one ever was
+  - No more than 6 on a team
+- As a trainer I want to view my team so that I can build the perfect team composition
+
+**Bonus**
+
+- As a trainer I want to select my Pokémon's moveset so that I can perfectly balance my team
+  - no more than 4 moves per pokemon
+- As a trainer I want to search items so that I can give them to my Pokémon
+- As a trainer I want to give my Pokemon items so that they will be more powerful in battle
+  - No more than 1 item per pokemon
+
+#### Hints
+
+Read the [docs](https://pokeapi.co/docs/v2.html)!
+
+`GET /api/v2/{endpoint}/` will give you a list of all the resources for that endpoint. For example `GET /api/v2/pokemon` will give you a list of all of the Pokémon. By default, this list is limited to 20 results. Use the query param `limit` to get more. For example: `GET /api/v2/pokemon?limit=964` will give you all the Pokémon (with names and url to that resource) in the database. You may want to use this to get your initial state for some of your components (perhaps to make search quicker).
+
+The API is rate limited to 100 requests per minute, so be careful with how often you are hitting the endpoint or you will be throttled.
+
+## Resources
+
+- React
+  - [Lifecycle Methods Diagram](http://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/)
