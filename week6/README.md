@@ -1,5 +1,23 @@
 # Week 6: React!
 
+* [Monday](#monday)
+  * [Consuming APIs](#consuming-apis)
+* [Tuesday](#tuesday)
+  * [React!](#react)
+  * [Tooling](#tooling)
+  * [Building our first app](#building-our-first-app)
+  * [Important Terms](#important-terms)
+  * [Message Board in React](#message-board-in-react)
+* [Wednesday](#wednesday)
+  * [Project](#project)
+    * [Teams](#teams)
+    * [User Stories](#user-stories)
+    * [Hints](#hints)
+* [Friday](#friday)
+  * [Project Presentations](#project-presentations)
+  * [Pokémon](#pokémon)
+* [Resources](#resources)
+
 ## Monday
 
 ### Consuming APIs
@@ -151,9 +169,17 @@ Make an app using the [Pokeapi](https://pokeapi.co/)
 
 Read the [docs](https://pokeapi.co/docs/v2.html)!
 
+Test with Postman.
+
 `GET /api/v2/{endpoint}/` will give you a list of all the resources for that endpoint. For example `GET /api/v2/pokemon` will give you a list of all of the Pokémon. By default, this list is limited to 20 results. Use the query param `limit` to get more. For example: `GET /api/v2/pokemon?limit=964` will give you all the Pokémon (with names and url to that resource) in the database. You may want to use this to get your initial state for some of your components (perhaps to make search quicker).
 
 The API is rate limited to 100 requests per minute, so be careful with how often you are hitting the endpoint or you will be throttled.
+
+## Friday
+
+### Project Presentations
+
+### Pokémon
 
 ## Resources
 
