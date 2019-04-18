@@ -60,6 +60,13 @@ Some terms to understand:
   > Models are responsible for creating and reading documents from the underlying MongoDB database
 - Queries: requests to read and modify the DB (**Careful!** They look/act a lot like Promises but they're not quite)
 
+### Two ways to define relationships
+
+1. Reference (foreign key)
+2. Nested documents
+
+---
+
 1. register for mongoDB Atlas
    1. create cluster
    2. add new user: root qD3Q5rLgP0SszhsS
@@ -75,5 +82,21 @@ Some terms to understand:
    3. export
 8. use model in router
 9. Comment.find to get all
-   1. filter with `where` and `regex` with [chaining](https://mongoosejs.com/docs/api.html#Query)
-10. create a document with `save`
+10. filter with `where` and `regex` with [chaining](https://mongoosejs.com/docs/api.html#Query)
+11. create a document with `create`
+12. update with `findByIdAndUpdate`
+13. delete with `findByIdAndDelete`
+14. User model
+15. Make relationships with "foreign keys"
+16. Make user router to signup
+17. Change comment create to include userId
+18. make sure to update User comments!
+19. Change comment get to `populate` user
+    1. exclude password
+    2. let's actually do this in a `pre` hook
+
+### Resources
+
+- [MongoDB Documentation](https://docs.mongodb.com/)
+- [Mongoose Documentation](https://mongoosejs.com/docs/guide.html)
+- [Express Tutorial Part 3: Using a Database (with Mongoose)](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/mongoose)

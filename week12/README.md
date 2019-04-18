@@ -1,0 +1,139 @@
+# Review
+
+- How the internet works
+  - protocols: HTTP, HTTPS, websockets, SSH, UDP, IMAP, POP, TCP
+  - CORS
+  - Mozilla vs Chrome
+  - packets, servers (nginx & apache & IIS), information flow
+  - DNS
+- Git
+  - push, pull, fork, merge, clone, stash, rebase, resolve conflicts, branch, checkout, request changes
+  - local vs remote repo
+  - branching standards: branch with features, merge back in
+  - pull before you push
+  - don't push to master (branch protection)
+  - review
+  - pull requests
+  - issues, issue tracking
+  - Github
+    - pages, projects (Jira, Asana, Trello, MS Projects), wikis (Confluence)
+    - organizations
+- HTML
+  - semantic tags: nav, aside, article, section, footer, strong, form, option, p, header, label, input, button
+  - Accessibility: contrast, alt, mark interactive elements, use buttons and anchors appropriately
+  - Attributes: class, id, disabled, checked, data-
+  - DOM: Document Object Model
+  - scripts and links
+  - meta tags
+  - content first (form follows function)
+  - portfolio
+- CSS
+  - grid
+  - flexbox
+  - selector specificity, cascading
+  - animations, transitions
+  - responsive design, media queries
+  - custom variables
+  - file structure, imports `@import './file.css'`
+- Design
+  - brutalism
+  - user patterns: F and Z
+  - hierarchy: color, size, weight, whitespace, rhythm
+  - contrast & accessibility
+  - typography: font-size, line length, line height
+  - progressive enhancement
+- JavaScript
+  - types: Strings, Objects, Arrays, Numbers
+  - let vs const vs var
+  - higher-order functions
+  - `==` vs `===`
+  - truthy/falsy
+  - arrow functions
+  - callbacks
+  - asynchronicity: async/await, promises, callbacks, AJAX
+  - libraries/APIs: axios, fetch, XMLHttpRequest
+  - OOP: classes, `this`, inheritance (`extends`), `super`
+  - template strings
+  - web components
+  - event loop, event bubbling, event listeners, custom events
+  - localstorage
+  - JWT
+- React
+  - state management: immutability, `setState` (asynchronous)
+  - components: reusability, modularity, organization
+  - props
+  - Data Down, Events Up
+  - JSX
+  - npm
+  - routing
+  - stateless functional comp vs class comp
+  - Redux: actions, store, reducers, dispatch, containers, providers
+  - lifecycle methods: `componentDidMount`, `componentDidUpdate`
+  - webpack
+- Agile
+  - scrum, kanban, sprints
+  - storytelling, user stories, epics
+  - scrum master, project manager, product owner/stakeholder, developer, user
+  - constant communication, constant feedback, adapt to change
+- Node/Express
+  - routing
+  - MVC (model, view, controller)
+  - middleware
+  - lowdb, storage
+  - architecture
+  - API design: CRUD (Create Read Update Delete), REST (REpresentational State Transfer), Postman, HTTP verbs (GET, POST, PATCH, PUT, DELETE)
+- MongoDB
+  - mongoose ODM (object data model): schema, models, controllers, hooks/middleware
+  - Compass
+  - NoSQL, JSON documents, collections
+  - Atlas
+- Tools
+  - VS Code, ESLint, Prettier, Live Server
+  - Netlify, Heroku
+  - Postman
+  - Github
+  - Compass
+  - Gitkraken, Github Desktop
+  - Command Line
+  - npm, yarn, chocolately, homebrew
+  - Firebase
+  - Debugging
+  - DevTools (Chrome, Firefox Dev Edition)
+  - Smash Bros: Little Mac, Yung Link
+  - Quiplash
+  - Postmates
+  - Git bash
+- Interview Skills
+  - data structures: linked list, hash table (set), hash map (dictionary), trees, BSTs, stacks, queues, array
+  - whiteboarding
+  - recursion vs iteration
+    - memoization
+  - dynamic, greedy
+  - searching: DFS, BFS, linear
+  - sorting: merge, quick, bubble, insertion, radix
+- sports
+  - frisbee
+  - basketball
+  - football
+
+## Things We Still Want to Learn
+
+- Sass
+- JS closures
+- Coding patterns
+- OOP principles
+- Regex
+- TypeScript
+- React Hooks
+- React Native
+- Progressive Web Apps
+- GraphQL
+- Gatsby
+- Vue
+- Angular
+- Authentication, payment
+- Python & Django
+- CI/CD: Travis, Jenkins
+- Testing: Jest, Mocha
+- CS fundamentals
+- ML, data analytics
