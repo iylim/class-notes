@@ -9,29 +9,29 @@ For more detailed notes, look in the corresponding folder for each week.
 These notes will be updated daily (sometimes multiple times a day).
 If you have any suggestions, please feel free to make a pull request or file an issue.
 
-* [Week 1](#week-1)
-  * [Technologies](#technologies)
-  * [Current Events](#current-events)
-  * [How the Web Works](#how-the-web-works)
-  * [Example: Serving a Static Site](#example-serving-a-static-site)
-  * [Group Research Projects](#group-research-projects)
-  * [Resources](#resources)
-* [Week 2](#week-2)
-  * [Current Events](#current-events-1)
-  * [Git](#git)
-    * [Exercise](#exercise)
-  * [HTML](#html)
-    * [Project](#project)
-  * [CSS](#css)
-    * [Code-along](#code-along)
-  * [JavaScript](#javascript)
-    * [Tooling](#tooling)
-    * [Topics](#topics)
-    * [Exercises](#exercises)
-  * [Resources](#resources-1)
-* [General Resources](#general-resources)
+- [Week 1](#week-1)
+  - [Technologies](#technologies)
+  - [Current Events](#current-events)
+  - [How the Web Works](#how-the-web-works)
+  - [Example: Serving a Static Site](#example-serving-a-static-site)
+  - [Group Research Projects](#group-research-projects)
+  - [Resources](#resources)
+- [Week 2](#week-2)
+  - [Current Events](#current-events-1)
+  - [Git](#git)
+    - [Exercise](#exercise)
+  - [HTML](#html)
+    - [Project](#project)
+  - [CSS](#css)
+    - [Code-along](#code-along)
+  - [JavaScript](#javascript)
+    - [Tooling](#tooling)
+    - [Topics](#topics)
+    - [Exercises](#exercises)
+  - [Resources](#resources-1)
+- [General Resources](#general-resources)
 
-## Week 1
+## Week 1 - [More Details](https://github.com/talent-path-la/class-notes/tree/master/week01)
 
 ### Technologies
 
@@ -82,7 +82,7 @@ ones we will be **exposed** to, and technologies that are **tangential** to what
   - [HTTP: Let’s GET It On!](https://dev.opera.com/articles/http-lets-get-it-on/)
   - [HTTP: Response Codes](https://dev.opera.com/articles/http-response-codes/)
 
-## Week 2
+## Week 2 - [More Details](https://github.com/talent-path-la/class-notes/tree/master/week02)
 
 ### Current Events
 
@@ -187,7 +187,63 @@ We learned how to build a splash and a nav (with dropdown).
 - JS
   - [Style Guide](https://www.w3schools.com/js/js_conventions.asp)
 
-## General Resources
+## Week 3 - [More Details](https://github.com/talent-path-la/class-notes/tree/master/week03)
+
+### Summary
+
+#### Agile
+
+Agile is a set of values and principles that encourages better ways to develop software. Its core beliefs are written in the Agile Manifesto.
+
+#### Scrum
+
+Implementation of Agile
+
+#### Kanban
+
+Implementation of Agile
+
+## Week 4 - [More Details](https://github.com/talent-path-la/class-notes/tree/master/week04)
+
+### Summary
+
+## Week 5 - [More Details](https://github.com/talent-path-la/class-notes/tree/master/week05)
+
+### Summary
+
+## Week 6 - [More Details](https://github.com/talent-path-la/class-notes/tree/master/week06)
+
+### Summary
+
+## Week 7 - [More Details](https://github.com/talent-path-la/class-notes/tree/master/week07)
+
+### Summary
+
+## Week 8 - [More Details](https://github.com/talent-path-la/class-notes/tree/master/week08)
+
+### Summary
+
+## Week 9 - [More Details](https://github.com/talent-path-la/class-notes/tree/master/week09)
+
+### Summary
+
+## Week 10 - [More Details](https://github.com/talent-path-la/class-notes/tree/master/week10)
+
+### Summary
+
+## Week 11 - [More Details](https://github.com/talent-path-la/class-notes/tree/master/week11)
+
+### Summary
+
+## Week 12 - [More Details](https://github.com/talent-path-la/class-notes/tree/master/week12)
+
+### Summary
+
+## Week N - [More Details](https://github.com/talent-path-la/class-notes/tree/master/weekN)
+
+### Summary
+
+## Global Resources
 
 - [Developer Roadmap](https://github.com/kamranahmedse/developer-roadmap)
 - [Front-End Developer Handbook 2018](https://frontendmasters.com/books/front-end-handbook/2018/)
