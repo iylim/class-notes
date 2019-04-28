@@ -1,3 +1,45 @@
+# Things We Still Want to Learn
+
+- Sass
+  - [Sass Guide](https://sass-lang.com/guide)
+  - [Create React App: Using Sass](https://facebook.github.io/create-react-app/docs/adding-a-sass-stylesheet)
+- JS closures
+  - [MDN web docs: Closures](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures)
+- Coding patterns
+  - [Geeks for geeks: Design Patterns](https://www.geeksforgeeks.org/software-design-patterns/)
+  - [JS Design Patterns](https://medium.com/beginners-guide-to-mobile-web-development/javascript-design-patterns-25f0faaaa15)
+- OOP principles
+  - [Pillars of OOP](https://medium.freecodecamp.org/object-oriented-programming-concepts-21bb035f7260)
+- Solid Principles
+  - [Scotch.io: Solid Principles](https://scotch.io/bar-talk/s-o-l-i-d-the-first-five-principles-of-object-oriented-design)
+- Regex
+  - [Cheatsheet with Descriptions](https://medium.com/factory-mind/regex-tutorial-a-simple-cheatsheet-by-examples-649dc1c3f285)
+  - [MDN Docs: Regex](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions)
+  - [Regex: Sandbox](https://regexr.com/)
+- TypeScript
+  - [Beginners Guide](https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html)
+  - [Scrimba: Free Typescript Tutorial](https://scrimba.com/g/gintrototypescript)
+- React
+  - [Awesome React: Curated List of awesome things](https://github.com/enaqx/awesome-react#react-general-tutorials)
+- React Hooks
+  - [React Docs: Hooks and Stateless Functions](https://reactjs.org/docs/hooks-state.html#hooks-and-function-components)
+- React Native
+- Progressive Web Apps
+  - [Google: Building Your first PWA](https://codelabs.developers.google.com/codelabs/your-first-pwapp/#0)
 - GraphQL
-- Gatsby
-- CSS preprocessors
+  - [How To GraphQL: Tutorial](https://www.howtographql.com/)
+  - [GraphQL with Express](https://graphql.org/graphql-js/running-an-express-graphql-server/)
+- Gatsby:
+  - [Main Docs](https://www.gatsbyjs.org/)
+- Vue
+  - [Vue Docs](https://vuejs.org/)
+  - [Awesome Vue: Curated List of awesome things](https://github.com/vuejs/awesome-vue)
+- Angular
+  - [Angular Docs](https://angular.io/docs)
+  - [Awesome Angular: Curated list of awesome things](https://github.com/PatrickJS/awesome-angular)
+- Authentication, payment
+- Python & Django
+- CI/CD: Travis, Jenkins
+- Testing: Jest, Mocha
+- CS fundamentals
+- ML, data analytics
