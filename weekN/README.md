@@ -37,6 +37,8 @@
 - Angular
   - [Angular Docs](https://angular.io/docs)
   - [Awesome Angular: Curated list of awesome things](https://github.com/PatrickJS/awesome-angular)
+- Architecture
+  - [Atomic Design](http://atomicdesign.bradfrost.com/chapter-2/)
 - Authentication, payment
 - Python & Django
 - CI/CD: Travis, Jenkins

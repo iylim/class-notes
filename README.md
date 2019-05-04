@@ -9,239 +9,146 @@ For more detailed notes, look in the corresponding folder for each week.
 These notes will be updated daily (sometimes multiple times a day).
 If you have any suggestions, please feel free to make a pull request or file an issue.
 
-- [Week 1](#week-1)
-  - [Technologies](#technologies)
-  - [Current Events](#current-events)
-  - [How the Web Works](#how-the-web-works)
-  - [Example: Serving a Static Site](#example-serving-a-static-site)
-  - [Group Research Projects](#group-research-projects)
-  - [Resources](#resources)
-- [Week 2](#week-2)
-  - [Current Events](#current-events-1)
-  - [Git](#git)
-    - [Exercise](#exercise)
-  - [HTML](#html)
-    - [Project](#project)
-  - [CSS](#css)
-    - [Code-along](#code-along)
-  - [JavaScript](#javascript)
-    - [Tooling](#tooling)
-    - [Topics](#topics)
-    - [Exercises](#exercises)
-  - [Resources](#resources-1)
-- [General Resources](#general-resources)
-
 ## Week 1 - [More Details](https://github.com/talent-path-la/class-notes/tree/master/week01)
 
-### Technologies
+### Tech overview, How the web works, Disney tour
 
-Compiled a list of web technologies we are familiar with.
-Broke that list down into **core** technologies that we will learn in this class,
-ones we will be **exposed** to, and technologies that are **tangential** to what we are learning.
-
-### Current Events
-
-- [Google Wants to Kill the URL](https://www.wired.com/story/google-wants-to-kill-the-url/)
-- [Google Takes its First Steps Towards Killing the URL](https://www.wired.com/story/google-chrome-kill-url-first-steps/)
-
-### How the Web Works
-
-- **Wires, WIFI, and Satellite transmissions** carry all of our data around the world.
-- **Assets** including code files such as HTML, CSS, and JavaScript, as well as images, video, music, etc.
-- **Servers** store the assets and serve them up to any who requests them.
-- **Clients** are the ones who request assets.
-- **TCP**, otherwise known as **Transmission Control Protocol**, defines how applications can create channels of communication across a network and manages how a message is assembled into smaller packets.
-- **IP**, otherwise known as **Internet Protocol**, defines how to address and route each packet to make sure it reaches the right destination.
-- **DNS**, otherwise known as **Domain Name System**, is how devices translate human-readable _domain names_ to computer-readable IP addresses.
-- **HTTP**, or the HyperText Transfer Protocol, is the application protocol that defines how devices speak to each other and send/request assets.
-
-### Example: Serving a Static Site
-
-- DigitalOcean
-- Ubuntu
-- Nginx Server
-- Google Domains
-- Filezilla
-- HTML5
-
-### Group Research Projects
-
-- [Browser security](https://docs.google.com/presentation/d/1H0RLt1l6RJ2X6cPXNs0vWv-njQuXuPPFHOw14azf_B8/edit?usp=sharing)
-- [Web protocols](https://docs.google.com/presentation/d/1ZPAzd_0jNotDqyjBPLfvv0wQtWqE7SX3KqmJ5_W-mlI/edit?usp=sharing)
-- [Web servers](https://docs.google.com/presentation/d/1mFVDEdNmyEwQv8k9bn5ImhDNpblTFxu4vDoxDDMjfp0/edit?usp=sharing)
-- [Browser wars](https://docs.google.com/presentation/d/1EtEkxRkd_2M9s4XE41d5H-iJbE9-3S0dkxYeUcryHEA/edit?usp=sharing)
-
-### Resources
-
-- [How Does the Internet Work](https://web.stanford.edu/class/msande91si/www-spr04/readings/week1/InternetWhitepaper.htm)
-- [MDN Web Docs: How the Web Works](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/How_the_Web_works)
-- [How Web Works (verrrry in-depth)](https://github.com/vasanthk/how-web-works)
-- [Definitions of Web-related terms](https://developer.mozilla.org/en-US/docs/Glossary)
-- A few articles on HTTP
-  - [HTTP — an Application-Level Protocol](https://dev.opera.com/articles/http-basic-introduction/)
-  - [HTTP: Let’s GET It On!](https://dev.opera.com/articles/http-lets-get-it-on/)
-  - [HTTP: Response Codes](https://dev.opera.com/articles/http-response-codes/)
+- Current events: Google's role in shaping the modern web
+  - read two articles and hold group discussion
+- Compile a list of technologies we have heard about
+  - Break list down into **core** tech that we will learn in the course, tech we will be **exposed** to, and tech that is **tangential** to what we are learning (consultants should learn these on their own)
+- How the web works
+  - Describe protocols, assets, servers, clients, DNS, infrastructure, etc.
+- Example: serving a static site
+  - Demo the complete process of serving a static site on the internet, from buying a domain to pushing to a server
+- Group research projects
+  - Research and present on four web topics: browser security, web protocols, web servers, browser wars
+- Disney tour
 
 ## Week 2 - [More Details](https://github.com/talent-path-la/class-notes/tree/master/week02)
 
-### Current Events
+### Git, HTML, CSS, Web Design
 
-- [The Great Divide](https://css-tricks.com/the-great-divide/)
-- [Codepen.io](https://codepen.io/)
-- [Motherfucking Website](http://motherfuckingwebsite.com/)
-- [Better Motherfucking Website](http://bettermotherfuckingwebsite.com/)
-- [Best Motherfucking Website](https://thebestmotherfucking.website/)
-- [Links that don’t go anywhere should be buttons](https://christianheilmann.com/2019/02/05/links-that-dont-go-anywhere-should-be-buttons/)
-
-### Git
-
-![Git workflow](https://appendtonew.wpengine.com/wp-content/uploads/2015/06/Screen-Shot-2015-06-24-at-8.37.13-PM-1024x663.png)
-
-**On a new repository:**
-
-1. `git init`
-2. `git add -A`
-3. `git commit -m "init"`
-4. `git remote add origin <repository URL>`
-5. `git push -u origin master`
-
-**For continued work:**
-
-1. `git add`
-2. `git commit`
-3. `git push`
-
-#### Exercise
-
-[student-directory](https://github.com/talent-path-la/student-directory)
-
-### HTML
-
-Make sure to use semantic elements whenever possible. Avoid "div soup".
-![divs vs good markups](http://v1c2v4d1fl-flywheel.netdna-ssl.com/wp-content/uploads/2017/08/semantic.jpg)
-Some HTML5 semantic elements include:
-
-- `<header>`- Defines a header for a document or a section
-- `<nav>` - Defines a container for navigation links
-- `<section>` - Defines a section in a document
-- `<article>` - Defines an independent self-contained article
-- `<aside>` - Defines content aside from the content (like a sidebar)
-- `<footer>` - Defines a footer for a document or a section
-- `<details>` - Defines additional details
-- `<summary>` - Defines a heading for the `<details>` element
-
-#### Project
-
-[portfolio](https://github.com/talent-path-la/portfolio)
-
-### CSS
-
-#### Code-along
-
-[portfolio](https://github.com/talent-path-la/portfolio)
-
-We learned how to build a splash and a nav (with dropdown).
-
-**Advanced CSS topics:**
-
-- [Responsive design](https://www.w3schools.com/css/css_rwd_intro.asp)
-- [Grid](https://css-tricks.com/snippets/css/complete-guide-grid/)
-- [Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
-- [Animations](https://www.w3schools.com/css/css3_animations.asp) - pure CSS slider
-
-### JavaScript
-
-#### Tooling
-
-- [Node.js](https://nodejs.org/en/)
-- [ESLint](https://eslint.org/)
-- [JavaScript (ES6) code snippets](https://marketplace.visualstudio.com/items?itemName=xabikos.JavaScriptSnippets)
-
-#### Topics
-
-- general language knowledge
-- strings
-- numbers
-- arrays, especially array functions like `map` and `filter`
-- objects
-
-#### Exercises
-
-- [JS Cardio 🏃🏼](https://github.com/talent-path-la/js-cardio)
-- [Connect Four](https://github.com/talent-path-la/connect-four)
-
-### Resources
-
-- Git
-  - [Merging vs. Rebasing](https://www.atlassian.com/git/tutorials/merging-vs-rebasing)
-  - [Git handbook](https://guides.github.com/introduction/git-handbook/)
-  - [Git cheatsheets](https://services.github.com/on-demand/resources/cheatsheets/)
-- HTML
-  - [Style Guide](https://www.w3schools.com/html/html5_syntax.asp)
-  - [Semantic HTML For Meaningful Webpages](http://seekbrevity.com/semantic-markup-important-web-design/)
-- CSS
-  - [Gradient tool](https://cssgradient.io/)
-  - [A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
-  - [Grid](https://css-tricks.com/snippets/css/complete-guide-grid/)
-  - [6 Tips that Will Improve Your UI Typography](http://www.steveschoger.com/2017/07/19/6-tips-that-will-improve-your-ui-typography/)
-- JS
-  - [Style Guide](https://www.w3schools.com/js/js_conventions.asp)
+- Current events: the great divide between different kinds of frontend developers
+- Git and Github: workflow, issue tracking
+- HTML: semantic and accessible markup
+- CSS: responsive design, flexbox, grid, animations
+- Design principles: visual hierarchy, typography, accessibility, rhythm, color theory
+- Portfolio project
 
 ## Week 3 - [More Details](https://github.com/talent-path-la/class-notes/tree/master/week03)
 
-### Summary
+### Consulting 101, Presentational skills, Agile, Scrum, Kanban
 
-#### Agile
-
-Agile is a set of values and principles that encourages better ways to develop software. Its core beliefs are written in the Agile Manifesto.
-
-#### Scrum
-
-Implementation of Agile
-
-#### Kanban
-
-Implementation of Agile
+- Consulting 101:
+  - Public Speaking
+  - Time management
+  - Giving / receiving feedback
+  - Teamwork
+    - Identifying and utilizing strengths of partners
+    - Covering and assisting in the weakness of partners
+  - SWOT Analysis
+  - Ask questions (ALWAYS)
+    - Do not assume anything
+    - Ask pertinent questions to the appropriate audience
+- Agile Principles:
+  - Agile is a set of values and principles that encourages better ways to develop software. Its core beliefs are written in the Agile Manifesto.
+- Storyboarding
+- Scrum vs Kanban
+- Agile in practice: project management with Github
 
 ## Week 4 - [More Details](https://github.com/talent-path-la/class-notes/tree/master/week04)
 
-### Summary
+### JavaScript fundamentals
+
+- Basics: strings, arrays, numbers, objects
+- ES6 features: arrow functions, callbacks, promises
+- Advanced JS: web components, consuming APIs
+- JS Cardio activity: pair programming fast-paced practice problems
+- Project: Connect Four
+- Project: WYSIWYG editor
 
 ## Week 5 - [More Details](https://github.com/talent-path-la/class-notes/tree/master/week05)
 
-### Summary
+### Node.js, Express, Server architecture and API design
+
+- Group project work begins
+  - Project pitches, assign trainees to groups, create initial backlog of user stories
+- Node server with text-based database
+- RESTful API with Express
+  - Discuss HTTP verbs, CRUD operations, and semantic API design
+- Project: Message Board API
+  - CRUD API for handling comment reading, writing, editing
+  - Deployment with Heroku
 
 ## Week 6 - [More Details](https://github.com/talent-path-la/class-notes/tree/master/week06)
 
-### Summary
+### React Week 1
+
+- React basics: state, props, data down/actions up, immutability
+- Converting from vanilla HTML/JS to React
+- Project: Message Board
+  - Single Page Application for writing, editing, saving and displaying comments
 
 ## Week 7 - [More Details](https://github.com/talent-path-la/class-notes/tree/master/week07)
 
-### Summary
+### React Week 2
+
+- Advanced React: routing, prop types
+- Google Firebase with React
+- Project: Pokémon Team Builder
+  - Uses the open-source Pokéapi to display and manipulate Pokémon data
+- Blizzard tour
 
 ## Week 8 - [More Details](https://github.com/talent-path-la/class-notes/tree/master/week08)
 
-### Summary
+### Redux
+
+- Redux concepts: unidirectional data flow, store, actions, reducers
+- Project: Trello clone
+  - Mimics Trello functionality using Redux to manage state
+- Community service: LA Food Bank
 
 ## Week 9 - [More Details](https://github.com/talent-path-la/class-notes/tree/master/week09)
 
-### Summary
+### MongoDB, MERN stack
+
+- MongoDB concepts: NoSQL, JSON documents, collections
+- Atlas: MongoDB cloud provider
+- Mongoose: MongoDB object data modeling library for JavaScript
+  - Models, schemas, and queries
+- Database concepts: relationships between documents
+- Project: persistent database for the Message Board app using MongoDB
+  - Message Board as a full-stack application running on the MERN stack
+  - Deployment with Netlify
 
 ## Week 10 - [More Details](https://github.com/talent-path-la/class-notes/tree/master/week10)
 
-### Summary
+### Authentication and Security
+
+- User accounts on the backend
+  - Passport: authentication library for Node
+  - secure, hashed passwords
+- Authentication and security with JSON web tokens
 
 ## Week 11 - [More Details](https://github.com/talent-path-la/class-notes/tree/master/week11)
 
-### Summary
+### Interview practice
+
+- Computer science fundamentals: data structures, runtime analysis, time/space complexity, searching and sorting algorithms
+- Whiteboard: practicing coding problems both in-person and online (with HackerRank)
 
 ## Week 12 - [More Details](https://github.com/talent-path-la/class-notes/tree/master/week12)
 
-### Summary
+### Final Project Presentations
+
+- Cohort presents the beta releases of their group projects
 
 ## Week N - [More Details](https://github.com/talent-path-la/class-notes/tree/master/weekN)
 
-### Summary
+### Continued Learning
+
+Mega list of all the fun things we should look into 🤓
 
 ## Global Resources
 
@@ -275,5 +182,7 @@ Implementation of Agile
   - [Codepen](https://codepen.io/)
   - [Dribble](https://dribbble.com/)
 - Coding practice
+  - [LeetCode](https://leetcode.com/)
+  - [HackerRank](https://www.hackerrank.com/dashboard)
   - [Frontloops](https://frontloops.io/): HTML/CSS challenges sent via email
   - [Daily CSS Images](http://dailycssimages.com/)
