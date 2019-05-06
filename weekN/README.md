@@ -1,4 +1,15 @@
-# Things We Still Want to Learn
+# Post-Graduation Training
+
+Congratulations! You are all now officially consultants; however, your learning is not over.
+You should continue to level up your skills over the next few weeks/months on the bench.
+
+I have put together this list of technologies and resources that are hot in the tech world right now.
+You may proceed through these lessons at any pace you want.
+This list is meant to guide your learning, but feel free to go off on any tangents that interest you.
+If you start learning GraphQL and get inspired to build an API for beer, then by all means follow that interest.
+In fact, I would recommend trying to build something (it can be small) with every technology you learn.
+
+The most important part of learning is to stay curious and passionate.
 
 ### Sass
 
