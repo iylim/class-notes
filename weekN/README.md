@@ -11,17 +11,67 @@ In fact, I would recommend trying to build something (it can be small) with ever
 
 The most important part of learning is to stay curious and passionate.
 
-* [Frontend](#frontend)
-  * [Testing React Applications](#testing-react-applications)
-  * [CSS Preprocessors](#css-preprocessors)
-  * [Gatsby](#gatsby)
-  * [Vue.js](#vuejs)
-  * [Angular](#angular)
-* [Backend](#backend)
-  * [GraphQL](#graphql)
-* [Other](#other)
+- [Frontend](#frontend)
+  - [Testing React Applications](#testing-react-applications)
+  - [CSS Preprocessors](#css-preprocessors)
+  - [Gatsby](#gatsby)
+  - [Vue.js](#vuejs)
+  - [Angular](#angular)
+- [Backend](#backend)
+  - [GraphQL](#graphql)
+- [Other](#other)
 
 ## Frontend
+
+### React
+
+> A JavaScript library for building user interfaces.
+
+#### Task
+
+- Read the docs provided in Resources for futher content.
+
+#### Resources
+
+- [Awesome React: Curated List of awesome things](https://github.com/enaqx/awesome-react#react-general-tutorials)
+
+### React Hooks
+
+> **What is a Hook?** A Hook is a special function that lets you “hook into” React features. For example, `useState` is a Hook that lets you add React state to function components.
+
+> **When would I use a Hook?** If you write a function component and realize you need to add some state to it, previously you had to convert it to a class. Now you can use a Hook inside the existing function component.
+
+#### Task
+
+- Read the docs provided in Resources.
+
+#### Resources
+
+- [React Docs: Hooks and Stateless Functions](https://reactjs.org/docs/hooks-state.html#hooks-and-function-components)
+
+### React Native
+
+> Build native mobile apps using JavaScript and React
+
+#### Task
+
+- Read the docs provided in Resources.
+
+#### Resources
+
+- [React Native: Getting Started](https://facebook.github.io/react-native/docs/getting-started)
+
+### Progressive Web Apps
+
+> Progressive web applications (PWAs) are web applications that load like regular web pages or websites but can offer the user functionality such as working offline, push notifications, and device hardware access traditionally available only to native applications. PWAs combine the flexibility of the web with the experience of a native application.
+
+#### Task
+
+- Read the docs provided in Resources.
+
+#### Resources
+
+- [Google: Building Your first PWA](https://codelabs.developers.google.com/codelabs/your-first-pwapp/#0)
 
 ### Testing React Applications
 
@@ -43,7 +93,6 @@ Then, follow this tutorial on [Testing React with Jest and Enzyme](https://mediu
 - [Jest Docs: Testing React Apps](https://jestjs.io/docs/en/tutorial-react)
 
 ### Sass
-
 
 Sass is completely compatible with all versions of CSS.
 
@@ -165,7 +214,7 @@ If you're feeling ambitious go through this [video course](https://www.youtube.c
 
 - LevelUpTuts AKA Scott Tolinksi AKA El Toro Loco: [What Is GraphQL?](https://www.youtube.com/watch?v=VjXb3PRL9WI)
 
-## Other
+## Programming Fundamentals
 
 ### JS closures
 
@@ -274,56 +323,6 @@ It is worth noting that there is a sort of antithesis to design patterns called 
 - [Scrimba: Free Typescript Tutorial](https://scrimba.com/g/gintrototypescript)
 - [Beginners Guide](https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html)
 - [Creat-React-App: Typescript Version](https://github.com/Microsoft/TypeScript-React-Starter#typescript-react-starter)
-
-### React
-
-> A JavaScript library for building user interfaces.
-
-#### Task
-
-- Read the docs provided in Resources for futher content.
-
-#### Resources
-
-- [Awesome React: Curated List of awesome things](https://github.com/enaqx/awesome-react#react-general-tutorials)
-
-### React Hooks
-
-> **What is a Hook?** A Hook is a special function that lets you “hook into” React features. For example, `useState` is a Hook that lets you add React state to function components.
-
-> **When would I use a Hook?** If you write a function component and realize you need to add some state to it, previously you had to convert it to a class. Now you can use a Hook inside the existing function component.
-
-#### Task
-
-- Read the docs provided in Resources.
-
-#### Resources
-
-- [React Docs: Hooks and Stateless Functions](https://reactjs.org/docs/hooks-state.html#hooks-and-function-components)
-
-### React Native
-
-> Build native mobile apps using JavaScript and React
-
-#### Task
-
-- Read the docs provided in Resources.
-
-#### Resources
-
-- [React Native: Getting Started](https://facebook.github.io/react-native/docs/getting-started)
-
-### Progressive Web Apps
-
-> Progressive web applications (PWAs) are web applications that load like regular web pages or websites but can offer the user functionality such as working offline, push notifications, and device hardware access traditionally available only to native applications. PWAs combine the flexibility of the web with the experience of a native application.
-
-#### Task
-
-- Read the docs provided in Resources.
-
-#### Resources
-
-- [Google: Building Your first PWA](https://codelabs.developers.google.com/codelabs/your-first-pwapp/#0)
 
 ## Work not completed below
 
