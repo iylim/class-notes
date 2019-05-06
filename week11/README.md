@@ -9,3 +9,7 @@
 ## Wednesday/Thursday
 
 - Data Structures
+
+## Client Visits
+
+Sysco Foods

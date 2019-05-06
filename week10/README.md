@@ -109,3 +109,7 @@ Now we're ready to get into it
 - [Adding Salt to Hashing: A Better Way to Store Passwords](https://auth0.com/blog/adding-salt-to-hashing-a-better-way-to-store-passwords/)
 - [How to Implement Authentication For Your React App](https://medium.appbase.io/how-to-implement-authentication-for-your-react-app-cf09eef3bb0b)
 - [React + Redux - JWT Authentication Tutorial & Example](http://jasonwatmore.com/post/2017/12/07/react-redux-jwt-authentication-tutorial-example)
+
+### Client Visits
+
+Cornerstone

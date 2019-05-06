@@ -100,3 +100,7 @@ Some terms to understand:
 - [MongoDB Documentation](https://docs.mongodb.com/)
 - [Mongoose Documentation](https://mongoosejs.com/docs/guide.html)
 - [Express Tutorial Part 3: Using a Database (with Mongoose)](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/mongoose)
+
+### Client Visits
+
+MotorTrend
