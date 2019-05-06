@@ -15,6 +15,8 @@ If you have any suggestions, please feel free to make a pull request or file an 
 
 - Current events: Google's role in shaping the modern web
   - read two articles and hold group discussion
+- Leadership
+  - What makes a good leader? Jeff Frey explains!
 - Compile a list of technologies we have heard about
   - Break list down into **core** tech that we will learn in the course, tech we will be **exposed** to, and tech that is **tangential** to what we are learning (consultants should learn these on their own)
 - How the web works
@@ -32,8 +34,9 @@ If you have any suggestions, please feel free to make a pull request or file an 
 - Current events: the great divide between different kinds of frontend developers
 - Git and Github: workflow, issue tracking
 - HTML: semantic and accessible markup
+  - Demo a sample portfolio (John Mayer)
 - CSS: responsive design, flexbox, grid, animations
-- Design principles: visual hierarchy, typography, accessibility, rhythm, color theory
+- Design principles: purpose, visual hierarchy, typography, accessibility, rhythm, color theory
 - Portfolio project
 
 ## Week 3 - [More Details](https://github.com/talent-path-la/class-notes/tree/master/week03)
@@ -75,6 +78,8 @@ If you have any suggestions, please feel free to make a pull request or file an 
 - Group project work begins
   - Project pitches, assign trainees to groups, create initial backlog of user stories
 - Node server with text-based database
+- Asynchronous JS
+  - Callbacks, Promises, Async/Await
 - RESTful API with Express
   - Discuss HTTP verbs, CRUD operations, and semantic API design
 - Project: Message Board API
@@ -87,6 +92,8 @@ If you have any suggestions, please feel free to make a pull request or file an 
 
 - React basics: state, props, data down/actions up, immutability
 - Converting from vanilla HTML/JS to React
+- Project: Postie
+  - Single page application with users and posts.
 - Project: Message Board
   - Single Page Application for writing, editing, saving and displaying comments
 
@@ -96,6 +103,8 @@ If you have any suggestions, please feel free to make a pull request or file an 
 
 - Advanced React: routing, prop types
 - Google Firebase with React
+- Project: Postie Cont.
+  - React Routing and Prop Types
 - Project: Pokémon Team Builder
   - Uses the open-source Pokéapi to display and manipulate Pokémon data
 - Blizzard tour
