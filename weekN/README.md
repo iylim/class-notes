@@ -562,8 +562,9 @@ A part of programming that allows you to keep variables alive outside of their n
 
 #### Task <!-- omit in toc -->
 
-1. Watch [this](https://www.youtube.com/watch?v=F5mRW0jo-U4) beginner tutorial video to understand how to setup and create a django project.
-2. Complete the [Django Tutorial](https://docs.djangoproject.com/en/2.2/intro/tutorial01/) offered on their site for extra practice (if you need it).
+1. Read [Django Tutorial in Visual Studio Code](https://code.visualstudio.com/docs/python/tutorial-django) for VS Code specific setup instructions.
+2. Watch [this](https://www.youtube.com/watch?v=F5mRW0jo-U4) beginner tutorial video to understand how to setup and create a django project from scratch.
+3. Complete the [Django Tutorial](https://docs.djangoproject.com/en/2.2/intro/tutorial01/) offered on their site for extra practice (if you need it).
 
 #### Additional Resources <!-- omit in toc -->
 
