@@ -24,7 +24,12 @@ The most important part of learning is to stay curious and passionate.
 2. [Backend](#backend)
    1. [Public APIs](#public-apis)
    2. [GraphQL](#graphql)
-3. [Programming Fundamentals](#programming-fundamentals)
+3. [Full Stack](#full-stack)
+   1. [Security](#security)
+      1. [Authentication, payment](#authentication-payment)
+   2. [CI/CD](#cicd)
+   3. [Architecture](#architecture)
+4. [Programming Fundamentals](#programming-fundamentals)
    1. [OOP principles](#oop-principles)
    2. [FP Principles](#fp-principles)
    3. [Solid Principles](#solid-principles)
@@ -35,9 +40,14 @@ The most important part of learning is to stay curious and passionate.
       4. [Others](#others)
    5. [Coding patterns](#coding-patterns)
    6. [Regex](#regex)
-   7. [TypeScript](#typescript)
-   8. [JS closures](#js-closures)
-4. [Work not completed below](#work-not-completed-below)
+5. [JS Specifics](#js-specifics)
+   1. [TypeScript](#typescript)
+   2. [JS Closures](#js-closures)
+6. [Other](#other)
+   1. [Python & Django](#python--django)
+   2. [Machine Learning / Data Analytics](#machine-learning--data-analytics)
+   3. [AI](#ai)
+7. [Work not completed below](#work-not-completed-below)
 
 ## Frontend
 
@@ -302,6 +312,35 @@ It allows you to request exactly the data you want in a declarative syntax.
 - LevelUpTuts AKA Scott Tolinksi AKA El Toro Loco: [What Is GraphQL?](https://www.youtube.com/watch?v=VjXb3PRL9WI)
 - [GraphQL with Express](https://graphql.org/graphql-js/running-an-express-graphql-server/)
 
+## Full Stack
+
+### Security
+
+#### Authentication, payment
+
+<!-- TODO: NEEDS WORK! -->
+
+### CI/CD
+
+<!-- TODO: NEEDS WORK! -->
+
+#### Additional Resources <!-- omit in toc -->
+
+- [Travis](https://travis-ci.org/)
+- [Jenkin](https://jenkins.io/)
+
+### Architecture
+
+If you want to get a job, you need to know **HOW** to do the job.
+
+If you want to advance to higher level software positions, it is important to understand **WHY** you choose to do things a certain way.
+
+> Software architecture is the process of converting software characteristics such as flexibility, scalability, feasibility, reusability, and security into a structured solution that meets the technical and the business expectations.
+
+#### Additional Resources <!-- omit in toc -->
+
+- [Atomic Design: Design Methodology](http://atomicdesign.bradfrost.com/chapter-2/)
+
 ## Programming Fundamentals
 
 ### OOP principles
@@ -482,6 +521,8 @@ It is worth noting that there is a sort of antithesis to design patterns called 
 - [Cheatsheet with Descriptions](https://medium.com/factory-mind/regex-tutorial-a-simple-cheatsheet-by-examples-649dc1c3f285)
 - [Regex: Sandbox](https://regexr.com/)
 
+## JS Specifics
+
 ### TypeScript
 
 > TypeScript is a superset of JavaScript which primarily provides optional static typing, classes and interfaces. One of the big benefits is to enable IDEs to provide a richer environment for spotting common errors as you type the code.
@@ -498,7 +539,7 @@ It is worth noting that there is a sort of antithesis to design patterns called 
 - [Scrimba: Free Typescript Tutorial](https://scrimba.com/g/gintrototypescript)
 - [Beginners Guide](https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html)
 
-### JS closures
+### JS Closures
 
 > A closure is the combination of a function and the lexical environment within which that function was declared.
 
@@ -513,12 +554,29 @@ A part of programming that allows you to keep variables alive outside of their n
 - [Closures - Interview Questions](https://medium.com/javascript-scene/master-the-javascript-interview-what-is-a-closure-b2f0d2152b36)
 - [MDN web docs: Closures](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures)
 
+## Other
+
+### Python & Django
+
+> Django is a high-level Python Web framework that encourages rapid development and clean, pragmatic design. Built by experienced developers, it takes care of much of the hassle of Web development, so you can focus on writing your app without needing to reinvent the wheel. It’s free and open source.
+
+#### Task <!-- omit in toc -->
+
+1. Watch [this](https://www.youtube.com/watch?v=F5mRW0jo-U4) beginner tutorial video to understand how to setup and create a django project.
+2. Complete the [Django Tutorial](https://docs.djangoproject.com/en/2.2/intro/tutorial01/) offered on their site for extra practice (if you need it).
+
+#### Additional Resources <!-- omit in toc -->
+
+### Machine Learning / Data Analytics
+
+<!-- TODO: NEEDS WORK! -->
+
+### AI
+
+<!-- TODO: NEEDS WORK! -->
+
 ## Work not completed below
 
-- Architecture
-  - [Atomic Design](http://atomicdesign.bradfrost.com/chapter-2/)
-- Authentication, payment
-- Python & Django
-- CI/CD: Travis, Jenkins
 - CS fundamentals
-- ML, data analytics
+
+<!-- TODO: NEEDS WORK! -->
