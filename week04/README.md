@@ -161,3 +161,4 @@ Add an additional component onto this app.
 4.
 
 ### Resources
+[Angular: Data down, Actions up](https://www.learnhowtoprogram.com/javascript/angular/data-down-actions-up)
